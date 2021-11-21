@@ -2,7 +2,7 @@
 title: "Fluid-structure interaction simulations of the human heart"
 collection: talks
 type: "Seminar talk"
-permalink: /talks/2017-28-09-talk-4
+permalink: /talks/FSI_Bern
 venue: "ARTORG Center for Biomedical Engineering, University of Bern"
 date: 2017-09-28
 location: "Bern, Switzerland"

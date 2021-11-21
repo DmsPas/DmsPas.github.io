@@ -2,7 +2,7 @@
 title: "Balanced graph partition refinement using the graph p-laplacian"
 collection: talks
 type: "Conference talk"
-permalink: /talks/2017-28-09-talk-4
+permalink: /talks/pLap_Tokyo
 venue: "SIAM Conference on Parallel Processing for Scientific Computing, Waseda University"
 date: 2018-03-09
 location: "Tokyo, Japan"
