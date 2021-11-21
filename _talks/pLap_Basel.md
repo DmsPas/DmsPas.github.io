@@ -1,5 +1,5 @@
 ---
-title: "Improvement of graph partitions using the graph p-laplacian"
+title: "Improvement of graph partitions using the graph p-Laplacian"
 collection: talks
 type: "Conference talk"
 permalink: /talks/pLap_Basel

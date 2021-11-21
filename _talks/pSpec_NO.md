@@ -1,5 +1,5 @@
 ---
-title: "Multiway P-Spectral Clustering on Grassmann Manifolds"
+title: "Multiway p-spectral clustering on Grassmann manifolds"
 collection: talks
 type: "Conference talk"
 permalink: /talks/pSpec_NO

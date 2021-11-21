@@ -11,6 +11,26 @@ author_profile: true
 
 {% include base_path %}
 
+
+<h2>Journal Articles</h2>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.pubtype == 'Journal' %}
+      {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
+
+<h2>Conference Papers</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'Conference' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Under Review</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'UnderReview' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
