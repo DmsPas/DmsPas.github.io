@@ -4,7 +4,7 @@ pubtype: "Supervision"
 collection: teaching
 type: "Bachelor's thesis"
 permalink: /teaching/Topology_Optimization
-venue: "The Platform for Advanced Scientific Computing (PASC) Conference"
+venue: "Università della Svizzera italiana (USI)"
 date: 2020-01-01
 # location: "City, Country"
 ---
