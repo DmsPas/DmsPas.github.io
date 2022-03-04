@@ -9,6 +9,6 @@ date: 2020-01-01
 # location: "City, Country"
 ---
 
-Supervising the Bachelor students Lazar Najdenov on his thesis. Final grade: 10/10.
+Supervising the Bachelor student Lazar Najdenov on his thesis. Final grade: 10/10.
 <br>
 [Thesis](http://DmsPas.github.io/files/Najdenov_Final.pdf)
