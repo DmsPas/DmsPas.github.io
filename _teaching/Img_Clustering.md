@@ -10,4 +10,5 @@ date: 2019-01-01
 ---
 
 Supervising the MSc students Liudmila Karagyaur, Vanessa Braglia, and Lorenzo Ferri on a semester project as part of the course [Software Atelier: Simulation, Data Science & Supercomputing](https://search.usi.ch/en/courses/35260927/software-atelier-simulation-data-science-supercomputing).
+<br>
 [Report](http://DmsPas.github.io/files/A_High_Performance_Video_Segmentation_Framework.pdf) 
