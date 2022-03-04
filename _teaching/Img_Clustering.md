@@ -1,10 +1,10 @@
 ---
 title: "A High Performance Video Segmentation Framework"
-pubtype: "Courses"
-collection: Supervision
+pubtype: "Supervision"
+collection: teaching
 type: "Semester project"
 permalink: /teaching/HPC_CSE
-venue: "Student Project"
+venue: "Università della Svizzera italiana (USI)"
 date: 2019-01-01
 # location: "City, Country"
 ---

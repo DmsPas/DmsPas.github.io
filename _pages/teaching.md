@@ -11,6 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- What happens if I write here? -->
 
 <h2>Courses</h2>
 {% for post in site.teaching reversed %}
