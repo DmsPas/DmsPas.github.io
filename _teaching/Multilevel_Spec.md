@@ -10,5 +10,5 @@ date: 2022-01-01
 ---
 
 Supervising the MSc student Kalman Szenes on his semester project.
-<!-- <br>
-[Thesis](http://DmsPas.github.io/files/Najdenov_Final.pdf) -->
+<br>
+[Slides](http://DmsPas.github.io/files/Multilevel_slides.pdf)
