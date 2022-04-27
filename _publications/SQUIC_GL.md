@@ -3,7 +3,7 @@ title: "Sparse Quadratic Approximation for Graph Learning"
 pubtype: "UnderReview"
 collection: publications
 permalink: /publication/SQUIC_GL
-date: 2021-08-12
+date: 2022-04-26
 venue: "TechRxiv"
 paperurl: 'https://www.techrxiv.org/articles/preprint/Sparse_Quadratic_Approximation_for_Graph_Learning/19635990'
 citation: 'Pasadakis, Dimosthenis; Bollhöfer, Matthias; Schenk, Olaf (2022): Sparse Quadratic Approximation for Graph Learning. TechRxiv. Preprint. https://doi.org/10.36227/techrxiv.19635990.v1'
