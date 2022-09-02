@@ -16,3 +16,8 @@ My work is supported by the Swiss National Science Foundation (SNSF) under the p
 <img src="/images/USI_logo_round.png" width="150" alt="USI_logo_round"> 
 </p>
 
+*** 
+
+### News
+
+- Chairing the [AP1B - ACM Papers Session 1B](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess173.html) in PASC'22.
