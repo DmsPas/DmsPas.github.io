@@ -85,7 +85,7 @@ author:
   avatar           : "garden_work.jpg"
   bio              : 
   location         : "Lugano, Switzerland"
-  employer         : "Università della Svizzera italiana (USI)"
+  employer         : "[Università della Svizzera italiana](https://www.usi.ch/en)"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en"
   email            :  "dimosthenis.pasadakis@usi.ch"
@@ -182,9 +182,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  # portfolio:
-  #   output: true
-  #   permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -228,15 +228,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  #_portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -245,7 +236,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  #_software
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comment: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
