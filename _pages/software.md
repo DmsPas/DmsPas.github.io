@@ -4,11 +4,14 @@ title: "Software"
 ---
 
 ## Sparse QUadratic Inverse Covariance matrix estimation (SQUIC)
-<!-- <p align="center">
-  <img align="middle" src="[Figures/map_locations.jpeg](http://DmsPas.github.io/images/map_locations.jpeg)" alt="Location of samples" width=":100%"/>
-</p> -->
+<p align="center">
+  <img align="middle" src="https://drive.google.com/uc?id=14ob4yMPKd6NMcCnxsRT2Otxulpksb0Ay" alt="Location of samples" width="250"/>
+</p>
+<center>
+<!--  -->
+</center>
 
-<figure><img align="middle" src="https://drive.google.com/uc?id=14ob4yMPKd6NMcCnxsRT2Otxulpksb0Ay" alt="comp" style="width:100%"><figcaption align = "center"><b>The optimized algorithmic components present in SQUIC.</b></figcaption></figure>
+<!-- <figure><img align="middle" src="https://drive.google.com/uc?id=14ob4yMPKd6NMcCnxsRT2Otxulpksb0Ay" alt="comp" style="width:100%"><figcaption align = "center"><b>The optimized algorithmic components present in SQUIC.</b></figcaption></figure> -->
 
 **SQUIC** is an $\ell_1$-regularized maximum likelihood method for performant large-scale sparse precision matrix estimation. The code is packaged as the shared library ``libSQUIC``, intended for Linux and Mac OS. It is written in C++ and is parallelized with OpenMP, with Python and R APIs available.
 
@@ -23,7 +26,7 @@ The shared library can be downloaded and used directly, or compiled from source,
   <img align="middle" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="Location of samples" width="250"/>
 </p>
 <center>
-**Potential source rock locations**
+<!--  -->
 </center>
 
 <!-- <figure><img align="center" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="chrom" style="width:40%"><figcaption align = "center"><b>Potential source rock locations</b></figcaption></figure> -->
