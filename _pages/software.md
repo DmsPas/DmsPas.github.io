@@ -18,7 +18,7 @@ The shared library can be downloaded and used directly, or compiled from source,
 
 ## Spectral clustering for source rocks
 
-<figure><img align="middle" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="chrom" style="width:40%"><figcaption align = "center"><b>
+<figure><img align="center" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="chrom" style="width:40%"><figcaption align = "center"><b>
 </b>Potential source rock locations</figcaption></figure>
 <!-- <p align="center">
   <img align="middle" src="http://DmsPas.github.io/images/Chromatograph.png" alt="Location of samples" width="350"/>
