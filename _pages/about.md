@@ -21,4 +21,4 @@ My work is supported by the Swiss National Science Foundation (SNSF) under the p
 ### News
 
 - Chairing the [AP1B - ACM Papers Session 1B](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess173.html) in PASC'22.
-- Our article *Multiway p-spectral graph cuts on Grassmann manifolds* was featured in the December 2021 newsletter of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU). [Newsletter link](https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf)
+- Our article *Multiway p-spectral graph cuts on Grassmann manifolds* was featured in the December 2021 [newsletter](https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf) of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU).
