@@ -18,10 +18,16 @@ The shared library can be downloaded and used directly, or compiled from source,
 
 ## Spectral clustering for source rocks
 
-<figure><img align="center" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="chrom" style="width:40%"><figcaption align = "center"><b>Potential source rock locations</b></figcaption></figure>
-<!-- <p align="center">
-  <img align="middle" src="http://DmsPas.github.io/images/Chromatograph.png" alt="Location of samples" width="350"/>
-</p> -->
+
+<p align="center">
+  <img align="middle" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="Location of samples" width="250"/>
+</p>
+<center>
+**Potential source rock locations**
+</center>
+
+<!-- <figure><img align="center" src="http://DmsPas.github.io/images/map_locations.jpeg" alt="chrom" style="width:40%"><figcaption align = "center"><b>Potential source rock locations</b></figcaption></figure> -->
+
 
 Oil-oil and oil-source geochemical correlation is a subject of prime importance to the hydrocarbon exploration community for decades. We present a direct multiway spectral clustering approach, which is a graph based method that allows the automatic selection of the optimal number of clusters based on the modularity of the resulting partitioning.
 
