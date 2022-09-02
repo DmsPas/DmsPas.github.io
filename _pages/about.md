@@ -12,6 +12,7 @@ I am a Ph.D. candidate at [Università della Svizzera italiana (USI)](https://ww
 
 My work is supported by the Swiss National Science Foundation (SNSF) under the project 182673 entitled [*Balanced Graph Partition Refinement Using the Graph p-Laplacian*](https://search.usi.ch/projects/1036/balanced-graph-partition-refinement-using-the-graph-p-laplacian).
 
-<img src="/images/USI_logo_round.png" width="150" alt="USI_logo_round" class="right"> 
-<!-- <img src="/images/snsf-logo.png" width="200" align="right"> -->
+<p align="center">
+<img src="/images/USI_logo_round.png" width="150" alt="USI_logo_round"> 
+</p>
 
