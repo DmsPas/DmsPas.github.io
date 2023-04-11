@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) in Lugano, Switzerland, working at the [Institute of Computing (CI)](https://www.ci.inf.usi.ch/) under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph partitioning and clustering. Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/). 
+I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) in Lugano, Switzerland, working at the [Institute of Computing (CI)](https://www.ci.inf.usi.ch/). The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph partitioning and clustering. I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/). 
 
-This is my [cv](http://DmsPas.github.io/files/CV_Pasadakis_2022.pdf).
+This is my [cv](http://DmsPas.github.io/files/CV_Postdoc.pdf).
 
-My work is supported by the Swiss National Science Foundation (SNSF) under the project 182673 entitled [*Balanced Graph Partition Refinement Using the Graph p-Laplacian*](https://search.usi.ch/projects/1036/balanced-graph-partition-refinement-using-the-graph-p-laplacian).
+My work is supported by the joint German Research Foundation (DFG) - 470857344 and Swiss National Science Foundation (SNSF) - 204817 project [*Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing*](https://data.snf.ch/grants/grant/204817).
+
 
 <p align="center">
 <img src="/images/USI_logo_round.png" width="150" alt="USI_logo_round"> 
@@ -22,5 +23,8 @@ My work is supported by the Swiss National Science Foundation (SNSF) under the p
 
 ### News
 
-- Chairing the [AP1B - ACM Papers Session 1B](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess173.html) in PASC'22.
-- Our article *Multiway p-spectral graph cuts on Grassmann manifolds* was featured in the December 2021 [newsletter](https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf) of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU).
+- 04/2023: Our article [*Sparse Quadratic Approximation for Graph Learning*](https://ieeexplore.ieee.org/document/10091452) is published in IEEE Transactions on Pattern Analysis and Machine Intelligence.
+- 04/2023: The Swiss National Science Foundation (SNSF) [*Balanced Graph Partition Refinement Using the Graph p-Laplacian*](https://search.usi.ch/projects/1036/balanced-graph-partition-refinement-using-the-graph-p-laplacian) that supported my Phd studies is now complete.
+- 03/2023: I have succesfully defended my Phd thesis entitled [*Learning and clustering graphs from high dimensional data*](http://DmsPas.github.io/files/PhD_Thesis_Pasadakis_signed).
+- 07/2022: Chairing the [AP1B - ACM Papers Session 1B](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess173.html) in PASC'22.
+- 12/2021: Our article *Multiway p-spectral graph cuts on Grassmann manifolds* was featured in the [newsletter](https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf) of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU).
