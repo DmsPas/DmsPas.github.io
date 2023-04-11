@@ -16,7 +16,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 
 
 <p align="center">
-<img src="/images/USI_logo_full.png" width="220" alt="USI_logo_full"> 
+<img src="/images/USI_logo_full.png" width="420" alt="USI_logo_full"> 
 </p>
 
 *** 
