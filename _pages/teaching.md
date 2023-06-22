@@ -1,37 +1,16 @@
 ---
-layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+** Student supervision
 
-{% include base_path %}
+* Julien Schmidt, Detecting financial fraud using graph neural networks, Poster at [PASC’23, Davos, Switzerland](https://pasc23.pasc-conference.org/), Università della Svizzera italiana (USI), 2023. [Slides](http://DmsPas.github.io/files/Multilevel_slides.pdf)
 
-<!-- What happens if I write here? -->
+* Kalman Szenes, Spectral clustering using a multilevel approach, Semester project, ETH Zürich 2022. [Slides](http://DmsPas.github.io/files/Multilevel_slides.pdf)
 
-<h2>Courses</h2>
-{% for post in site.teaching reversed %}
-  {% if post.pubtype == 'Courses' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+* Lazar Najdenov, A study of spectral clustering techniques for machine learning applications, Bachelor's thesis, Università della Svizzera italiana (USI), 2020. Final grade: 10/10. [Thesis](http://DmsPas.github.io/files/PASC2023_JulienSchmidt)
 
-<h2>Supervision</h2>
-{% for post in site.teaching reversed %}
-  {% if post.pubtype == 'Supervision' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+* Liudmila Karagyaur, Vanessa Braglia, and Lorenzo Ferri, A high performance video segmentation framework, Semester project, Università della Svizzera italiana (USI), 2019. [Report](http://DmsPas.github.io/files/A_High_Performance_Video_Segmentation_Framework.pdf)
 
-<!-- <h2>Under Review</h2>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'UnderReview' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %} -->
-
-
+* Ezekiel Barnett, Sumeet Gyanchandani, and Sameer Rawat, High performance topology optimization , Semester project and poster submission, Università della Svizzera italiana (USI), 2019. 3rd place runner-up award for “Best poster” at [PASC’18, Basel, Switzerland](https://pasc18.pasc-conference.org/). [Poster](http://DmsPas.github.io/files/PASC18_Poster_Final.pdf)
