@@ -1,9 +1,9 @@
 ---
-title: "Publications"
+title: ""
 permalink: /publications/
 ---
 
-You can also find my articles on <u><a href="{{https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en}}">Google Scholar</a>.</u>
+You can also find my articles on [my scholar profile](https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en).
 
 # Journal articles
 
