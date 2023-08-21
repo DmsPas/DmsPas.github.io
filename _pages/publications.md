@@ -1,36 +1,28 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+You can also find my articles on <u><a href="{{https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en}}">Google Scholar</a>.</u>
 
-{% include base_path %}
+# Journal articles
 
+* D. Pasadakis, M. Bollhöfer, and O. Schenk, "Sparse Quadratic Approximation for Graph Learning," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 9, pp. 11256-11269, 1 Sept. 2023, [doi: 10.1109/TPAMI.2023.3263969](https://doi.org/10.1109/TPAMI.2023.3263969).
 
-<h2>Journal Articles</h2>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'Journal' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+* D. Pasadakis, C.L. Alappat, O. Schenk, and G. Wellein, "Multiway p-spectral graph cuts on Grassmann manifolds". Machine Learning 111, 791–829, 2022, [doi: 10.1007/s10994-021-06108-1](https://doi.org/10.1007/s10994-021-06108-1). 
 
-<h2>Conference Papers</h2>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'Conference' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+* A. Eftekhari, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk, "Block-enhanced precision matrix estimation for large-scale datasets", Journal of Computational Science, Volume 53, 2021, [doi: 10.1016/j.jocs.2021.101389](https://doi.org/10.1016/j.jocs.2021.101389). 
 
-<h2>Under Review</h2>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'UnderReview' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+# Conference papers
+
+* V.I. Makri, D. Pasadakis, and N. Pasadakis, "A Novel Chemometric Approach for Oil & Source Rock Clustering", in European Association of Geoscientists & Engineers, pp. 1-2, 2023, [doi: 10.3997/2214-4609.202333183](https://doi.org/10.3997/2214-4609.202333183).
+
+* T. Simpson, D. Pasadakis, D. Kourounis, K. Fujita, T. Yamaguchi, T. Ichimura, and O. Schenk. "Balanced graph partition refinement using the graph p-Laplacian," in Proceedings of the Platform for Advanced Scientific Computing Conference, Association for Computing Machinery, New York, NY, USA, PASC ’18, 2018, [doi: 10.1145/3218176.3218232](https://doi.org/10.1145/3218176.3218232).
+
+# Under review
+
+* A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk, "Large-scale precision matrix estimation with SQUIC". [preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3904001)
+
+* D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS". [preprint](http://albert-jan.yzelman.net/PDFs/pasadakis23a-pp.pdf)
 
 
