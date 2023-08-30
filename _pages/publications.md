@@ -15,7 +15,7 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 # Conference papers
 
-* D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS". Accepted at IEEE High Performance Extreme Computing Virtual Conference, 25 - 29 September 2023. _Outstanding short paper award_. [paper](http://albert-jan.yzelman.net/PDFs/pasadakis23a-pp.pdf)
+* D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS". Accepted at IEEE High Performance Extreme Computing Conference, 25 - 29 September 2023. _Outstanding short paper award_. [paper](http://albert-jan.yzelman.net/PDFs/pasadakis23a-pp.pdf)
 
 * V.I. Makri, D. Pasadakis, and N. Pasadakis, "A novel chemometric approach for oil & source rock clustering", in European Association of Geoscientists & Engineers, pp. 1-2, 2023, [doi: 10.3997/2214-4609.202333183](https://doi.org/10.3997/2214-4609.202333183).
 
