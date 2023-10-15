@@ -5,7 +5,7 @@ permalink: /teaching/
 
 # Courses as instructor
 
-* __(Coming up)__ Numerical computing, BSc course, USI, 2023.
+* [Numerical computing](https://www.ci.inf.usi.ch/teaching/), BSc of Informatics, USI, 2023.
 
 # Student supervision
 
