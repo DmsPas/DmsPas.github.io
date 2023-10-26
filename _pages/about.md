@@ -12,7 +12,7 @@ I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https:
 
 This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf).
 
-My work is supported by the joint German Research Foundation (DFG) - 470857344 and Swiss National Science Foundation (SNSF) - 204817 project [*Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing*](https://data.snf.ch/grants/grant/204817).
+My work is supported by the joint German Research Foundation (DFG) - 470857344 and Swiss National Science Foundation (SNSF) - 204817 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
 
 
 <p align="center">
