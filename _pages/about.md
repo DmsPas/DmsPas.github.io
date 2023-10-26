@@ -10,7 +10,7 @@ redirect_from:
 
 I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) in Lugano, Switzerland, working at the [Institute of Computing (CI)](https://www.ci.inf.usi.ch/). The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph partitioning and clustering. I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/). 
 
-This is my [cv](http://DmsPas.github.io/files/CV_Postdoc.pdf).
+This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf).
 
 My work is supported by the joint German Research Foundation (DFG) - 470857344 and Swiss National Science Foundation (SNSF) - 204817 project [*Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing*](https://data.snf.ch/grants/grant/204817).
 
