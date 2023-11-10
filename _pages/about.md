@@ -22,6 +22,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 *** 
 
 ### News
+- 11/23: I have been awarded a [DDSA](https://ddsa.dk/) grant to visit the [Department of Mathematical Science](https://vbn.aau.dk/en/organisations/institut-for-matematiske-fag) of Aalborg University.
 - 09/23: Our article [Nonlinear spectral clustering with C++ GraphBLAS](http://albert-jan.yzelman.net/PDFs/pasadakis23a-pp.pdf) has received the Outstanding Short Paper Award at [IEEE HPEC](https://ieee-hpec.org/index.php/ieee-hpec-2023-prelim-agenda/#4-P).
 - 04/2023: Our article [Sparse Quadratic Approximation for Graph Learning](https://ieeexplore.ieee.org/document/10091452) is published in IEEE Transactions on Pattern Analysis and Machine Intelligence.
 - 04/2023: The Swiss National Science Foundation (SNSF) project [Balanced Graph Partition Refinement Using the Graph p-Laplacian](https://search.usi.ch/projects/1036/balanced-graph-partition-refinement-using-the-graph-p-laplacian) that supported my Phd studies is now complete.
