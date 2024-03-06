@@ -7,7 +7,9 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 # Journal articles
 
-* D. Pasadakis, M. Bollhöfer, and O. Schenk, "Sparse quadratic approximation for graph learning," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 9, pp. 11256-11269, 1 Sept. 2023, [doi: 10.1109/TPAMI.2023.3263969](https://doi.org/10.1109/TPAMI.2023.3263969).
+* A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk. 2024. "Algorithm XXX: Sparse Precision Matrix Estimation With SQUIC," ACM Transactions of Mathematical Software, March 2024. [doi: 10.1145/3650108](https://doi.org/10.1145/3650108).
+
+* D. Pasadakis, M. Bollhöfer, and O. Schenk, "Sparse quadratic approximation for graph learning," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 9, pp. 11256-11269, 1 Sept. 2023, [doi: 10.1109/TPAMI.2023.3263969](https://doi.org/10.1109/TPAMI.2023.3263969).
 
 * D. Pasadakis, C.L. Alappat, O. Schenk, and G. Wellein, "Multiway p-spectral graph cuts on Grassmann manifolds". Machine Learning 111, 791–829, 2022, [doi: 10.1007/s10994-021-06108-1](https://doi.org/10.1007/s10994-021-06108-1). 
 
@@ -21,9 +23,8 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 * T. Simpson, D. Pasadakis, D. Kourounis, K. Fujita, T. Yamaguchi, T. Ichimura, and O. Schenk. "Balanced graph partition refinement using the graph p-Laplacian," in Proceedings of the Platform for Advanced Scientific Computing Conference, Association for Computing Machinery, New York, NY, USA, PASC ’18, 2018, [doi: 10.1145/3218176.3218232](https://doi.org/10.1145/3218176.3218232).
 
-# Under review
-
-* A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk, "Large-scale precision matrix estimation with SQUIC". [preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3904001)
+<!-- # Under review
+<!-- * A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk, "Large-scale precision matrix estimation with SQUIC". [preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3904001) --> -->
 
 
 
