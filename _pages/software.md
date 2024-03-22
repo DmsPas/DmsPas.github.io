@@ -6,7 +6,7 @@ title: "Software"
 ## Sparse QUadratic Inverse Covariance matrix estimation (SQUIC)
 
 <p align="center">
-  <img align="middle" src="http://DmsPas.github.io/images/SQUIC_components.png" alt="Algo comp" width="550"/>
+  <img align="middle" src="http://DmsPas.github.io/images/SQUIC_components.png" alt="Algo comp" width="650"/>
 </p>
 <center>
 <!--  -->
