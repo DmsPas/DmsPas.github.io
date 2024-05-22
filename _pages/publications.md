@@ -5,7 +5,7 @@ permalink: /publications/
 
 You can also find my articles on [my scholar profile](https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en).
 
-# Journal articles
+## Journal articles
 
 * A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk. 2024. "Algorithm XXX: Sparse Precision Matrix Estimation With SQUIC," ACM Transactions of Mathematical Software, March 2024. [doi: 10.1145/3650108](https://doi.org/10.1145/3650108).
 
@@ -17,7 +17,7 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 ## Conference papers
 
-* J. Schmidt, D. Pasadakis, M. Sathe and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, in press.
+* J. Schmidt, D. Pasadakis, M. Sathe, and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, in press.
 
 * V.I. Makri and D. Pasadakis, "The clustering of source rocks: A spectral approach". in Mediterranean Geosciences Union, MedGU, 20 March 2024. [doi: 10.1007/978-3-031-48758-3_72](https://doi.org/10.1007/978-3-031-48758-3_72)
 
@@ -26,3 +26,5 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 * V.I. Makri, D. Pasadakis, and N. Pasadakis, "A novel chemometric approach for oil & source rock clustering", in European Association of Geoscientists & Engineers, pp. 1-2, 2023, [doi: 10.3997/2214-4609.202333183](https://doi.org/10.3997/2214-4609.202333183).
 
 * T. Simpson, D. Pasadakis, D. Kourounis, K. Fujita, T. Yamaguchi, T. Ichimura, and O. Schenk, "Balanced graph partition refinement using the graph p-Laplacian," in Proceedings of the Platform for Advanced Scientific Computing Conference, Association for Computing Machinery, New York, NY, USA, PASC ’18, 2018, [doi: 10.1145/3218176.3218232](https://doi.org/10.1145/3218176.3218232).
+
+### Thesis
