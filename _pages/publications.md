@@ -27,4 +27,3 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 * T. Simpson, D. Pasadakis, D. Kourounis, K. Fujita, T. Yamaguchi, T. Ichimura, and O. Schenk, "Balanced graph partition refinement using the graph p-Laplacian," in Proceedings of the Platform for Advanced Scientific Computing Conference, Association for Computing Machinery, New York, NY, USA, PASC ’18, 2018, [doi: 10.1145/3218176.3218232](https://doi.org/10.1145/3218176.3218232).
 
-### Thesis
