@@ -3,9 +3,11 @@ title: "Talks and presentations"
 permalink: /talks/
 ---
 
+* Graph adjacency matrix estimation via maximum likelihood, SIAM Conference on Applied Linear Algebra (LA), Sorbonne, Paris, 2024. [Minisymposium website](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=78748)
+
 * Learning graph Laplacian matrices via maximum likelihood, Swiss Numerics Day (SND), University of Bern, Switzerland 2023. [Event website](https://mathsites.unibe.ch/snd2023/SND2023Program.pdf)
 
-* Sparse Quadratic Approximation for Graph Learning, Platform for Advanced Scientific Computing (PASC) Conference, Congress Center, Basel, Switzerland 2022. [Event website](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess156.html) [Abstract & Slides](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=10&id=msa130&sess=sess156.html)
+* Sparse Quadratic Approximation for Graph Learning, Platform for Advanced Scientific Computing (PASC) Conference, Congress Center, Basel, Switzerland, 2022. [Event website](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess156.html) [Abstract & Slides](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=10&id=msa130&sess=sess156.html)
 
 * Multiway p-spectral graph cuts  on Grassmann Manifolds, Swiss Numerics Day (SND), EPFL, Lausanne, Switzerland 2021. [Event website](https://snd2021.epfl.ch/program.html) [Abstract online](http://DmsPas.github.io/files/abstracts_SND_Dimosthenis Pasadakis.pdf)
 

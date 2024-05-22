@@ -3,7 +3,7 @@ title: ""
 permalink: /publications/
 ---
 
-You can also find my articles on [my scholar profile](https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en).
+<!-- You can also find my articles on [my scholar profile](https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en). -->
 
 ## Journal articles
 
@@ -23,7 +23,10 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 * D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS," in IEEE High Performance Extreme Computing Conference, 25 - 29 September 2023. *Outstanding short paper award*. [paper](http://albert-jan.yzelman.net/PDFs/pasadakis23a-pp.pdf) [poster](http://DmsPas.github.io/files/Poster_IEEE_HPEC_23.pdf)
 
-* V.I. Makri, D. Pasadakis, and N. Pasadakis, "A novel chemometric approach for oil & source rock clustering", in European Association of Geoscientists & Engineers, pp. 1-2, 2023, [doi: 10.3997/2214-4609.202333183](https://doi.org/10.3997/2214-4609.202333183).
+* V.I. Makri, D. Pasadakis, and N. Pasadakis, "A novel chemometric approach for oil & source rock clustering," in European Association of Geoscientists & Engineers, pp. 1-2, 2023, [doi: 10.3997/2214-4609.202333183](https://doi.org/10.3997/2214-4609.202333183).
 
 * T. Simpson, D. Pasadakis, D. Kourounis, K. Fujita, T. Yamaguchi, T. Ichimura, and O. Schenk, "Balanced graph partition refinement using the graph p-Laplacian," in Proceedings of the Platform for Advanced Scientific Computing Conference, Association for Computing Machinery, New York, NY, USA, PASC ’18, 2018, [doi: 10.1145/3218176.3218232](https://doi.org/10.1145/3218176.3218232).
 
+## Thesis
+
+* D. Pasadakis, "Learning and clustering graphs from high dimensional data," PhD thesis, Università della Svizzera italiana, 2023. [Thesis](https://folia.unifr.ch/global/documents/324640)
