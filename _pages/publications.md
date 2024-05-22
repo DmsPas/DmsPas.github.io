@@ -15,7 +15,7 @@ You can also find my articles on [my scholar profile](https://scholar.google.com
 
 * A. Eftekhari, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk, "Block-enhanced precision matrix estimation for large-scale datasets," Journal of Computational Science, Volume 53, 2021, [doi: 10.1016/j.jocs.2021.101389](https://doi.org/10.1016/j.jocs.2021.101389). 
 
-# Conference papers
+## Conference papers
 
 * J. Schmidt, D. Pasadakis, M. Sathe and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, in press.
 
