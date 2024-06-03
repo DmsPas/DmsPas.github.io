@@ -17,7 +17,7 @@ permalink: /publications/
 
 ## Conference papers
 
-* J. Schmidt, D. Pasadakis, M. Sathe, and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, in press.
+* J. Schmidt, D. Pasadakis, M. Sathe, and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, in press. *Best poster award*. [paper](https://ssl.lu.usi.ch/entityws/Allegati/3010824_638529309691881843.pdf)[poster](http://DmsPas.github.io/files/SDS24_GAMLNet_Poster.pdf)
 
 * V.I. Makri and D. Pasadakis, "The clustering of source rocks: A spectral approach". in Mediterranean Geosciences Union, MedGU, 20 March 2024. [doi: 10.1007/978-3-031-48758-3_72](https://doi.org/10.1007/978-3-031-48758-3_72)
 
