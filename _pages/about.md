@@ -22,6 +22,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 *** 
 
 ### News
+- 06/24: Our interview with Albert-Jan Yzelman at ACM PASC regarding high performance graph analytics is now available [online](https://www.youtube.com/watch?v=wzn7zgDC4hs).
 - 06/24: The poster accompanying our article [GAMLNet: a graph based framework for the detection of money laundering](https://ssl.lu.usi.ch/entityws/Allegati/3010824_638529309691881843.pdf) has received the Best Poster Award at [IEEE SDS24](https://sds2024.ch/conference-program/).
 - 03/24: Our article [Sparse Precision Matrix Estimation With SQUIC](https://dl.acm.org/doi/10.1145/3650108) is published in ACM Transactions on Mathematical Software.
 - 03/24: We are organizing the minisymposia "Learning and Clustering Tasks on Graphical Structures" at [SIAM LA 24](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=78748) in Paris, and "High Performance Graph Analytics" at [PASC 24](https://pasc24.pasc-conference.org/program/minisymposia/) in Zürich.
