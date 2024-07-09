@@ -5,7 +5,7 @@ permalink: /teaching/
 
 ## Courses as instructor
 
-* [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35271090/emerging-topics-in-advanced-computing), PhD programme of the Faculty of Informatics, USI, 2024.
+* [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35271090/emerging-topics-in-advanced-computing), PhD course, Faculty of Informatics, USI, 2024.
 * [Numerical computing](https://www.ci.inf.usi.ch/teaching/), BSc of Informatics, USI, 2023.
 
 ## Student supervision
