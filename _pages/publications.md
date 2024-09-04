@@ -5,7 +5,7 @@ permalink: /publications/
 <!-- You can also find my articles on [my scholar profile](https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en). -->
 ## Preprints
 
-* C. Kodsi and D. Pasadakis. "Nonlinear Modified PageRank Problem for Local Graph Partitioning," September 2024. [arXiv link](https://arxiv.org/abs/2409.01834).
+* C. Kodsi and D. Pasadakis. "Nonlinear Modified PageRank Problem for Local Graph Partitioning," September 2024, [arXiv link](https://arxiv.org/abs/2409.01834).
 
 ## Journal articles
 
