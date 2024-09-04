@@ -2,14 +2,16 @@
 title: ""
 permalink: /publications/
 ---
-
 <!-- You can also find my articles on [my scholar profile](https://scholar.google.com/citations?user=X8lZFUEAAAAJ&hl=en). -->
+## Preprints
+
+* C. Kodsi and D. Pasadakis. "Nonlinear Modified PageRank Problem for Local Graph Partitioning," September 2024. [arXiv link](https://arxiv.org/abs/2409.01834).
 
 ## Journal articles
 
 * A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk. 2024. "Algorithm XXX: Sparse Precision Matrix Estimation With SQUIC," ACM Transactions of Mathematical Software, March 2024. [doi: 10.1145/3650108](https://doi.org/10.1145/3650108).
 
-* D. Pasadakis, M. Bollhöfer, and O. Schenk, "Sparse quadratic approximation for graph learning," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 9, pp. 11256-11269, 1 Sept. 2023, [doi: 10.1109/TPAMI.2023.3263969](https://doi.org/10.1109/TPAMI.2023.3263969).
+* D. Pasadakis, M. Bollhöfer, and O. Schenk, "Sparse quadratic approximation for graph learning," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 9, pp. 11256-11269, 1 Sept. 2023, [doi: 10.1109/TPAMI.2023.3263969](https://doi.org/10.1109/TPAMI.2023.3263969) and [TechRxiv link](https://www.techrxiv.org/doi/full/10.36227/techrxiv.19635990.v1). 
 
 * D. Pasadakis, C.L. Alappat, O. Schenk, and G. Wellein, "Multiway p-spectral graph cuts on Grassmann manifolds," Machine Learning 111, 791–829, 2022, [doi: 10.1007/s10994-021-06108-1](https://doi.org/10.1007/s10994-021-06108-1). 
 
