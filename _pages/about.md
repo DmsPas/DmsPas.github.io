@@ -22,6 +22,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 *** 
 
 ### News
+- 09/24: Our article [Multilevel diffusion based spectral graph clustering](https://ieee-hpec.org/wp-content/uploads/2024/09/176.pdf) has received the Outstanding Paper Award at [IEEE HPEC](https://ieee-hpec.org/).
 - 06/24: Our interview with Albert-Jan Yzelman at ACM PASC regarding high performance graph analytics is now available [online](https://www.youtube.com/watch?v=wzn7zgDC4hs).
 - 06/24: The poster accompanying our article [GAMLNet: a graph based framework for the detection of money laundering](https://ssl.lu.usi.ch/entityws/Allegati/3010824_638529309691881843.pdf) has received the Best Poster Award at [IEEE SDS24](https://sds2024.ch/conference-program/).
 - 03/24: Our article [Sparse Precision Matrix Estimation With SQUIC](https://dl.acm.org/doi/10.1145/3650108) is published in ACM Transactions on Mathematical Software.
