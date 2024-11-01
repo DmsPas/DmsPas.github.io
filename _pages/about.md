@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) in Lugano, Switzerland, working at the [Institute of Computing (CI)](https://www.ci.inf.usi.ch/). The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph partitioning and anomaly detection. I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/). 
+I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
+The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph partitioning and anomaly detection. I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/) and [TU Berlin](https://www.tu.berlin/). 
 
 This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated February 2024).
 
@@ -16,12 +17,13 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 
 
 <p align="center">
-<img src="/images/USI_logo_full.png" width="420" alt="USI_logo_full"> 
+<img src="/images/USI_Panua_Logo.png" width="420" alt="USI_logo_full"> 
 </p>
 
 *** 
 
 ### News
+- 10/24: I will be presenting our recent work at the Deloitte Zürich seminar [The power of graph technology in Financial Crime](https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html). 
 - 09/24: Our article [Multilevel diffusion based spectral graph clustering](https://ieee-hpec.org/wp-content/uploads/2024/09/176.pdf) has received the Outstanding Paper Award at [IEEE HPEC](https://ieee-hpec.org/).
 - 06/24: Our interview with Albert-Jan Yzelman at ACM PASC regarding high performance graph analytics is now available [online](https://www.youtube.com/watch?v=wzn7zgDC4hs).
 - 06/24: The poster accompanying our article [GAMLNet: a graph based framework for the detection of money laundering](https://ssl.lu.usi.ch/entityws/Allegati/3010824_638529309691881843.pdf) has received the Best Poster Award at [IEEE SDS24](https://sds2024.ch/conference-program/).
