@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
-The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph partitioning and anomaly detection. 
+The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph clustering and anomaly detection. 
 
 This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated February 2024).
 
