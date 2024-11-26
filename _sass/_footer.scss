@@ -2,65 +2,64 @@
    FOOTER
    ========================================================================== */
 
-   .page__footer {
+.page__footer {
+  @include clearfix;
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  position: relative;
+  bottom: 0;
+  height: auto;
+  margin-top: 3em;
+  color: mix(#fff, $gray, 25%);
+  background-color: $lighter-gray;
+  border-top: 1px solid $light-gray;
+  text-align: center;
+
+  footer {
     @include clearfix;
     margin: 0 auto;
-    width: 100%;
-    clear: both;
-    position: relative;
-    bottom: 0;
-    height: auto;
-    margin-top: 3em;
-    color: mix(#fff, $gray, 25%);
-    background-color: $lighter-gray;
-    border-top: 1px solid $light-gray;
+    padding: 1em 0;
+    max-width: $x-large;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .footer-custom-text {
+    margin-top: 1em;
     text-align: center;
-  
-    footer {
-      @include clearfix;
-      margin: 0 auto;
-      padding: 1em 0;
-      max-width: $x-large;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+    @media (min-width: 768px) {
+      font-size: 16px;
     }
-  
-    a {
-      color: inherit;
-      text-decoration: none;
-  
-      &:hover {
-        text-decoration: underline;
-      }
+
+    .email {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5em;
     }
-  
-    .footer-custom-text {
-      margin-top: 1em;
-      text-align: center;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-  
-      @media (min-width: 768px) {
-        font-size: 16px;
-      }
-  
-      .email {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 0.5em;
-      }
-  
-      .description {
-        font-style: italic;
-      }
+
+    .description {
+      font-style: italic;
     }
   }
-  
-  .page__footer-copyright {
-    font-family: $global-font-family;
-    font-size: $type-size-7;
-  }
-  
-  /* Remove social icon styling */
-  .page__footer-follow {
-    display: none;
-  }
-  
+}
+
+.page__footer-copyright {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+}
+
+/* Remove social icon styling */
+.page__footer-follow {
+  display: none;
+}

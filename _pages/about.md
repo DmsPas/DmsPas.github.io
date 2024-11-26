@@ -23,7 +23,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 
 *** 
 
-### News
+### <div style="text-align: center;">News</div>
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
     <li>11/24: I am presenting the foundation of the AI tools used in compliance at the <a href="https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/" target="_blank">Academy & Finance</a> seminar in Geneva.</li>
