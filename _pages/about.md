@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](https://www.usi.ch/en) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
+I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
 The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph clustering and anomaly detection. 
 
 This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated February 2024).
@@ -24,7 +24,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 *** 
 
 ### News
-<div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
+<div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
     <li>11/24: I am presenting the foundation of the AI tools used in compliance at the <a href="https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/" target="_blank">Academy & Finance</a> seminar in Geneva.</li>
     <li>10/24: I will be presenting our recent work at the Deloitte Zürich seminar <a href="https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html" target="_blank">The power of graph technology in Financial Crime</a>.</li>
