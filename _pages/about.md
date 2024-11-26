@@ -8,6 +8,17 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Animated Gradient Background -->
+<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: linear-gradient(-45deg, #eeeeff, #ddeeff, #cceeff, #eef5ff); background-size: 400% 400%; animation: gradientBG 15s ease infinite; opacity: 0.2;"></div>
+
+<style>
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+</style>
+
 I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
 The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph clustering and anomaly detection. 
 
@@ -15,17 +26,11 @@ This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated Februa
 
 My work is supported by the joint German Research Foundation (DFG) - 470857344 and Swiss National Science Foundation (SNSF) - 204817 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
 
-<!-- I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/) and [TU Berlin](https://www.tu.berlin/en/naturwissenschaften).  -->
-
 <p align="center">
 <img src="/images/USI_Panua_Logo.png" width="420" alt="USI_logo_full"> 
 </p>
 
 *** 
-
-<!-- <div style="text-align: center;">
-  <h2>News</h2>
-</div> -->
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
@@ -45,5 +50,3 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
     <li>12/21: Our article <em>Multiway p-spectral graph cuts on Grassmann manifolds</em> was featured in the <a href="https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf" target="_blank">newsletter</a> of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU).</li>
   </ul>
 </div>
-
-
