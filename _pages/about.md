@@ -24,6 +24,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 *** 
 
 ### News
+<div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
 - 11/24: I am presenting the foundation of the AI tools used in compliance at the [Academy & Finance](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/) seminar in Geneva. 
 - 10/24: I will be presenting our recent work at the Deloitte Zürich seminar [The power of graph technology in Financial Crime](https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html). 
 - 09/24: Our article [Multilevel diffusion based spectral graph clustering](https://ieee-hpec.org/wp-content/uploads/2024/09/176.pdf) has received the Outstanding Paper Award at [IEEE HPEC](https://ieee-hpec.org/).
@@ -38,3 +39,4 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 - 03/23: I have succesfully defended my Phd thesis entitled [Learning and clustering graphs from high dimensional data](http://DmsPas.github.io/files/PhD_Thesis_Pasadakis_signed.pdf).
 - 07/22: Chairing the [AP1B - ACM Papers Session 1B](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=11&sess=sess173.html) in PASC'22.
 - 12/21: Our article *Multiway p-spectral graph cuts on Grassmann manifolds* was featured in the [newsletter](https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf) of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU).
+</div>
