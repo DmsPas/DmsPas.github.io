@@ -23,9 +23,9 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 
 *** 
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
   <h2>News</h2>
-</div>
+</div> -->
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
