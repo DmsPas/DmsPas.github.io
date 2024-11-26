@@ -8,14 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Animated Gradient Background -->
-<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: linear-gradient(-45deg, #eeeeff, #ddeeff, #cceeff, #eef5ff); background-size: 400% 400%; animation: gradientBG 15s ease infinite; opacity: 0.2;"></div>
+<!-- Full-Page Animated Gradient Background -->
+<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #8fd3f4); background-size: 300% 300%; animation: edgyGradient 20s ease infinite; opacity: 0.7;"></div>
 
 <style>
-@keyframes gradientBG {
+@keyframes edgyGradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+/* Add padding to ensure gradient covers header fully */
+body {
+    margin: 0;
+    padding: 0;
+}
+.page {
+    position: relative;
+    z-index: 1;
 }
 </style>
 
