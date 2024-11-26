@@ -3,6 +3,8 @@ title: "Talks and presentations"
 permalink: /talks/
 ---
 
+* Artificial intelligence and compliance processes, Academy & Finance seminar, Hôtel Président Wilson, Geneva, 2024. [Seminar link](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/)
+
 * Graph analytics and machine learning for anomaly detection in financial transactions, The power of graph technology in Financial Crime, Deloitte Zürich, 2024. [Seminar link](https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html) [Slides](http://DmsPas.github.io/files/Graphaton_Deloitte.key)
 
 * Graph adjacency matrix estimation via maximum likelihood, SIAM Conference on Applied Linear Algebra (LA), Sorbonne, Paris, 2024. [Minisymposium website](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=78748)
