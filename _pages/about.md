@@ -24,6 +24,7 @@ My work is supported by the joint German Research Foundation (DFG) - 470857344 a
 *** 
 
 ### News
+- 11/24: I am presenting the foundation of the AI tools used in compliance at the [Academy & Finance](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/) seminar in Geneva. 
 - 10/24: I will be presenting our recent work at the Deloitte Zürich seminar [The power of graph technology in Financial Crime](https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html). 
 - 09/24: Our article [Multilevel diffusion based spectral graph clustering](https://ieee-hpec.org/wp-content/uploads/2024/09/176.pdf) has received the Outstanding Paper Award at [IEEE HPEC](https://ieee-hpec.org/).
 - 06/24: Our interview with Albert-Jan Yzelman at ACM PASC regarding high performance graph analytics is now available [online](https://www.youtube.com/watch?v=wzn7zgDC4hs).
