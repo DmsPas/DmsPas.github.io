@@ -9,9 +9,8 @@ title: ""
   <img src="http://DmsPas.github.io/images/Gauss8_nodes.png"  alt="Initial data" width="302"/>
   <img src="http://DmsPas.github.io/images/Gauss_Clusters_re.png" alt="p Clusters" width="350"/>
 </p>
-<center>
+
 We developed a new method for local graph partitioning based on a nonlinear generalisation of the PageRank problem involving the Moore-Penrose inverse of the incidence matrix. The Levenberg-Marquardt method is used with a full rank Jacobian variant to obtain a numerical solution to the generalised problem. Sets of vertices are formed according to the ranking supplied by the solution, and a conductance criterion decides upon the set that best represents the local cluster around a starting vertex.
-</center>
 
 The MATLAB code and the input graphs are available [here](https://github.com/DmsPas/Nonlinear_modified_PageRank).
 
