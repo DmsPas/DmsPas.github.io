@@ -11,12 +11,11 @@ redirect_from:
 I am a postdoctoral fellow at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
 The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph clustering and anomaly detection. 
 
-This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated February 2024).
-
-I am the principal investigator of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich for 2025. My work is 
+I am the principal investigator (PI) of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich for 2025. My work is 
 also supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
 
+<!-- This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated February 2024). -->
 <!-- I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/) and [TU Berlin](https://www.tu.berlin/en/naturwissenschaften).  -->
 
 <p align="center">
