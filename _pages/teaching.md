@@ -10,6 +10,13 @@ permalink: /teaching/
 
 ## Student supervision
 
+* **(ongoing)** J. Palumbo, Nonlinear spectral clustering with ALP/GraphBLAS, MSc thesis of Computational Science, USI.
+
+* **(ongoing)** G. Meyer, New data formats for sparse
+tensor contractions, Semester project, MSc of Computational Science, USI.
+
+* **(ongoing)** D. Santarsiero, Using time-series clustering for a better financial crime segmentation model, MSc thesis of Computational Science, USI.
+
 * Julien Schmidt, Detecting financial fraud using graph neural networks, Poster at [PASC’23, Davos, Switzerland](https://pasc23.pasc-conference.org/), and MSc thesis, USI, 2023. [Poster](http://DmsPas.github.io/files/PASC2023_JulienSchmidt.pdf) [Thesis](https://thesis.bul.sbu.usi.ch/theses/2191-2223Schmidt/pdf?1697548012)
 
 * Kalman Szenes, Spectral clustering using a multilevel approach, Semester project, ETH Zürich 2022. [Slides](http://DmsPas.github.io/files/Multilevel_slides.pdf)
