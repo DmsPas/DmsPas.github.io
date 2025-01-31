@@ -1,7 +1,9 @@
 ---
-title: "Talks and presentations"
+title: ""
 permalink: /talks/
 ---
+
+## Talks and presentations
 
 * Artificial intelligence and compliance processes, Academy & Finance seminar, Hôtel Président Wilson, Geneva, 2024. [Seminar link](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/)
 
