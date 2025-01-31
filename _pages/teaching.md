@@ -15,7 +15,7 @@ permalink: /teaching/
 * **(ongoing)** G. Meyer, New data formats for sparse
 tensor contractions, Semester project, MSc of Computational Science, USI.
 
-* **(ongoing)** D. Santarsiero, Using time-series clustering for a better financial crime segmentation model, MSc thesis of Computational Science, USI.
+* **(ongoing)** C. Ricci, Using time-series clustering for a better financial crime segmentation model, MSc thesis of Computational Science, USI.
 
 * E. Steinmacher, Genuine atomic multicast on Apache Kafka, Semester project USI, Poster at [PASC’24](https://pasc24.pasc-conference.org/) conference, Zürich, Switzerland. [Poster](http://DmsPas.github.io/files/Poster_HiWi_kafka.pdf)
 
