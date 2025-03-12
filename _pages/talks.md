@@ -5,7 +5,7 @@ permalink: /talks/
 
 ## Talks and presentations
 
-* Artificial intelligence and compliance processes, Academy & Finance seminar, Hôtel Président Wilson, Geneva, 2024. [Seminar link](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/)
+* Artificial intelligence and compliance processes, Academy & Finance seminar, Hôtel Président Wilson, Geneva, 2024 & Zürich Sheraton Hotel, 2025. [Geneva seminar](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/) [Zürich seminar](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes-2/)
 
 * Graph analytics and machine learning for anomaly detection in financial transactions, The power of graph technology in Financial Crime, Deloitte Zürich, 2024. [Seminar link](https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html) [Slides](http://DmsPas.github.io/files/Graphaton_Deloitte.key)
 
