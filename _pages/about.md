@@ -30,6 +30,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
+    <li>03/25: I will be visiting the Huawei Research Center Zürich in March.</li>
     <li>03/25: The second edition of the AI & compliance seminar is taking place in <a href="https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes-2/" target="_blank">Zürich</a>.</li>
     <li>11/24: I am presenting the foundation of the AI tools used in compliance at the <a href="https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/" target="_blank">Academy & Finance</a> seminar in Geneva.</li>
     <li>10/24: I will be presenting our recent work at the Deloitte Zürich seminar <a href="https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html" target="_blank">The power of graph technology in Financial Crime</a>.</li>
