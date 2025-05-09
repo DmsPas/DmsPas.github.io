@@ -19,7 +19,7 @@ permalink: /publications/
 
 ## Conference papers
 
-* M. Lechekhab, D. Pasadakis, and O. Schenk, "Multilevel diffusion based spectral graph clustering," in IEEE High Performance Extreme Computing Conference, 23 - 27 September 2024. *Outstanding paper award*. [paper](https://ieee-hpec.org/wp-content/uploads/2024/09/176.pdf)
+* M. Lechekhab, D. Pasadakis, and O. Schenk, "Multilevel diffusion based spectral graph clustering," in IEEE High Performance Extreme Computing Conference, 23 - 27 September 2024. *Outstanding paper award*. [doi: 10.1109/HPEC62836.2024.10938528](https://doi.org/10.1109/HPEC62836.2024.10938528)
 
 * J. Schmidt, D. Pasadakis, M. Sathe, and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, pp. 241-245. *Best poster award*. [poster](http://DmsPas.github.io/files/SDS24_GAMLNet_Poster.pdf) [doi: 10.1109/SDS60720.2024.00043](https://doi.org/10.1109/SDS60720.2024.00043)
 
