@@ -7,7 +7,6 @@ permalink: /talks/
 
 * Graph learning and spectral clustering in high dimensional data, Duke Computer Science Colloquium, Durham, NC,  July 21, 2025. [Announcement](https://cs.duke.edu/events/graph-learning-and-spectral-clustering-high-dimensional-data)
 
-
 * Graph analytics and machine learning for anomaly detection in financial transactions, SIAM Conference on Financial Mathematics and Engineering (FM25), Hyatt Regency Miami, July 15–18, 2025. [Abstract](https://meetings.siam.org/sess/dsp_talk.cfm?p=148007)
 
 * Graph-based anomaly detection in financial transactions, Vienna Congress on Mathematical Finance (VCMF 25), WU Vienna,  July 9–11, 2025. [Abstract](https://fam.tuwien.ac.at/events/vcmf2025/program1.php#pasadakis)
