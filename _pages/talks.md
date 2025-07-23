@@ -5,6 +5,13 @@ permalink: /talks/
 
 ## Talks and presentations
 
+* Graph learning and spectral clustering in high dimensional data, Duke Computer Science Colloquium, Durham, NC,  July 21, 2025. [Announcement](https://cs.duke.edu/events/graph-learning-and-spectral-clustering-high-dimensional-data)
+
+
+* Graph analytics and machine learning for anomaly detection in financial transactions, SIAM Conference on Financial Mathematics and Engineering (FM25), Hyatt Regency Miami, July 15–18, 2025. [Abstract](https://meetings.siam.org/sess/dsp_talk.cfm?p=148007)
+
+* Graph-based anomaly detection in financial transactions, Vienna Congress on Mathematical Finance (VCMF 25), WU Vienna,  July 9–11, 2025. [Abstract](https://fam.tuwien.ac.at/events/vcmf2025/program1.php#pasadakis)
+
 * Artificial intelligence and compliance processes, Academy & Finance seminar, Hôtel Président Wilson, Geneva, 2024 & Zürich Sheraton Hotel, 2025. [Geneva seminar](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/) [Zürich seminar](https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes-2/)
 
 * Graph analytics and machine learning for anomaly detection in financial transactions, The power of graph technology in Financial Crime, Deloitte Zürich, 2024. [Seminar link](https://mkto.deloitte.com/FY25-Q2-FA-EV-Graphaton-24-Zurich-CH_Registration-page-Social.html) [Slides](http://DmsPas.github.io/files/Graphaton_Deloitte.key)
