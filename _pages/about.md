@@ -30,6 +30,8 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
+    <li>06/25: I will be presenting our work this summer at <a href="https://fam.tuwien.ac.at/events/vcmf2025/index.php" target="_blank">VCMF 25 (Vienna)</a>, <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85240" target="_blank">SIAM FM 25 (Miami, FL)</a>, and at the 
+    <a href="https://cs.duke.edu/events/graph-learning-and-spectral-clustering-high-dimensional-data" target="_blank">Duke Computer Science Colloquium (Durham, NC).</li>
     <li>03/25: I will be visiting the Huawei Research Center Zürich in March.</li>
     <li>03/25: The second edition of the AI & compliance seminar is taking place in <a href="https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes-2/" target="_blank">Zürich</a>.</li>
     <li>11/24: I am presenting the foundation of the AI tools used in compliance at the <a href="https://www.academyfinance.ch/artificial-intelligence-and-compliance-processes/" target="_blank">Academy & Finance</a> seminar in Geneva.</li>
