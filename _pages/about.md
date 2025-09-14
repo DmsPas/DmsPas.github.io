@@ -29,6 +29,184 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 *** 
 
+<!-- ===================== Research Highlights Carousel ===================== -->
+<div id="research-highlights" aria-label="Research highlights carousel" style="max-width:820px;margin:24px auto;">
+  <h3 style="text-align:center;margin:0 0 12px 0;">Research highlights</h3>
+
+  <div class="rc-wrapper" role="region">
+    <!-- Slides -->§
+    <!-- Replace img src and links with your figures & paper links. Keep the same structure. -->
+    <div class="rc-slide active">
+      <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
+        <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
+      </a>
+      <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+    </div>
+
+    <div class="rc-slide">
+      <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
+        <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
+      </a>
+      <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+    </div>
+
+    <div class="rc-slide">
+      <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
+        <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
+      </a>
+      <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+    </div>
+
+    <!-- Prev / Next -->
+    <button class="rc-nav rc-prev" aria-label="Previous slide">&#10094;</button>
+    <button class="rc-nav rc-next" aria-label="Next slide">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="rc-dots" role="tablist" aria-label="Slide selectors"></div>
+  </div>
+</div>
+
+<style>
+/* ---- Carousel styles (scoped by .rc-*) ---- */
+.rc-wrapper {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+.rc-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.rc-slide.active { opacity: 1; }
+.rc-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.rc-caption {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #333;
+  background: rgba(255,255,255,0.88);
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+.rc-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.9);
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  width: 36px; height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.rc-nav:hover { background: #fff; }
+.rc-prev { left: 10px; }
+.rc-next { right: 10px; }
+.rc-dots {
+  position: absolute;
+  bottom: 8px; left: 0; right: 0;
+  display: flex; gap: 6px; justify-content: center; align-items: center;
+}
+.rc-dots button {
+  width: 8px; height: 8px; border-radius: 50%;
+  border: 1px solid #bbb; background: #fff; opacity: .7;
+  cursor: pointer;
+}
+.rc-dots button.active { background: #333; border-color: #333; opacity: 1; }
+@media (max-width: 560px) { .rc-caption { font-size: 12px; } }
+</style>
+
+<script>
+(function(){
+  // Basic, dependency-free carousel with auto-advance, dots, keyboard & swipe
+  const root = document.currentScript.previousElementSibling.previousElementSibling; // <div id="research-highlights"> -> .rc-wrapper is inside
+  const wrapper = root.querySelector('.rc-wrapper');
+  const slides = Array.from(wrapper.querySelectorAll('.rc-slide'));
+  const prevBtn = wrapper.querySelector('.rc-prev');
+  const nextBtn = wrapper.querySelector('.rc-next');
+  const dotsEl = wrapper.querySelector('.rc-dots');
+
+  let index = 0, timer = null, hover = false;
+
+  // Dots
+  slides.forEach((_, i) => {
+    const b = document.createElement('button');
+    b.setAttribute('aria-label', 'Go to slide ' + (i+1));
+    b.addEventListener('click', () => go(i, true));
+    dotsEl.appendChild(b);
+  });
+
+  function setActive(i){
+    slides.forEach((s,k)=> s.classList.toggle('active', k===i));
+    dotsEl.querySelectorAll('button').forEach((d,k)=> d.classList.toggle('active', k===i));
+  }
+
+  function go(i, user=false){
+    index = (i + slides.length) % slides.length;
+    setActive(index);
+    if (user) restart();
+  }
+
+  function next(){ go(index+1); }
+  function prev(){ go(index-1); }
+
+  function start(){
+    stop();
+    timer = setInterval(()=> { if(!hover) next(); }, 5000);
+  }
+  function stop(){ if(timer) clearInterval(timer); }
+  function restart(){ start(); }
+
+  // Events
+  nextBtn.addEventListener('click', ()=> next());
+  prevBtn.addEventListener('click', ()=> prev());
+
+  wrapper.addEventListener('mouseenter', ()=> { hover = true; });
+  wrapper.addEventListener('mouseleave', ()=> { hover = false; });
+
+  // Keyboard
+  wrapper.setAttribute('tabindex','0');
+  wrapper.addEventListener('keydown', (e)=>{
+    if(e.key === 'ArrowRight') next();
+    if(e.key === 'ArrowLeft')  prev();
+  });
+
+  // Touch swipe
+  let sx = 0, dx = 0;
+  wrapper.addEventListener('touchstart', (e)=> { sx = e.touches[0].clientX; dx = 0; }, {passive:true});
+  wrapper.addEventListener('touchmove', (e)=> { dx = e.touches[0].clientX - sx; }, {passive:true});
+  wrapper.addEventListener('touchend', ()=> {
+    if (Math.abs(dx) > 40) (dx < 0 ? next() : prev());
+  });
+
+  // Init
+  setActive(0);
+  start();
+})();
+</script>
+<!-- =================== End Research Highlights Carousel =================== -->
+
 <!-- <div style="text-align: center;">
   <h2>News</h2>
 </div> -->
