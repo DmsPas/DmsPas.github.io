@@ -31,10 +31,10 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <!-- ===================== Research Highlights Carousel ===================== -->
 <div id="research-highlights" aria-label="Research highlights carousel" style="max-width:820px;margin:24px auto;">
-  <h3 style="text-align:center;margin:0 0 12px 0;"></h3>
+  <h3 style="text-align:center;margin:0 0 12px 0;">Research highlights</h3>
 
   <div class="rc-wrapper" role="region">
-    <!-- Slides -->§
+    <!-- Slides -->
     <!-- Replace img src and links with your figures & paper links. Keep the same structure. -->
     <div class="rc-slide active">
       <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
@@ -105,6 +105,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
   background: rgba(255,255,255,0.88);
   border-top: 1px solid #eee;
   text-align: center;
+  z-index: 1;
 }
 .rc-nav {
   position: absolute;
@@ -119,6 +120,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
   font-size: 20px;
   cursor: pointer;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  z-index: 3; /* ensure buttons are clickable above image/caption */
 }
 .rc-nav:hover { background: #fff; }
 .rc-prev { left: 10px; }
@@ -138,21 +140,23 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 </style>
 
 <script>
-(function(){
-  // Basic, dependency-free carousel with auto-advance, dots, keyboard & swipe
-  const root = document.currentScript.previousElementSibling.previousElementSibling; // <div id="research-highlights"> -> .rc-wrapper is inside
+(function () {
+  // Robust init: select the carousel by its ID (safer in Markdown/Jekyll)
+  const root = document.getElementById('research-highlights');
+  if (!root) return;
   const wrapper = root.querySelector('.rc-wrapper');
-  const slides = Array.from(wrapper.querySelectorAll('.rc-slide'));
+  const slides  = Array.from(wrapper.querySelectorAll('.rc-slide'));
   const prevBtn = wrapper.querySelector('.rc-prev');
   const nextBtn = wrapper.querySelector('.rc-next');
-  const dotsEl = wrapper.querySelector('.rc-dots');
+  const dotsEl  = wrapper.querySelector('.rc-dots');
+  if (!slides.length) return;
 
   let index = 0, timer = null, hover = false;
 
-  // Dots
+  // Build dots
   slides.forEach((_, i) => {
     const b = document.createElement('button');
-    b.setAttribute('aria-label', 'Go to slide ' + (i+1));
+    b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
     b.addEventListener('click', () => go(i, true));
     dotsEl.appendChild(b);
   });
@@ -161,44 +165,34 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
     slides.forEach((s,k)=> s.classList.toggle('active', k===i));
     dotsEl.querySelectorAll('button').forEach((d,k)=> d.classList.toggle('active', k===i));
   }
-
   function go(i, user=false){
     index = (i + slides.length) % slides.length;
     setActive(index);
     if (user) restart();
   }
+  function next(){ go(index + 1); }
+  function prev(){ go(index - 1); }
 
-  function next(){ go(index+1); }
-  function prev(){ go(index-1); }
-
-  function start(){
-    stop();
-    timer = setInterval(()=> { if(!hover) next(); }, 5000);
-  }
-  function stop(){ if(timer) clearInterval(timer); }
+  function start(){ stop(); timer = setInterval(() => { if (!hover) next(); }, 5000); }
+  function stop(){ if (timer) clearInterval(timer); }
   function restart(){ start(); }
 
   // Events
-  nextBtn.addEventListener('click', ()=> next());
-  prevBtn.addEventListener('click', ()=> prev());
+  nextBtn.addEventListener('click', next);
+  prevBtn.addEventListener('click', prev);
+  wrapper.addEventListener('mouseenter', () => hover = true);
+  wrapper.addEventListener('mouseleave', () => hover = false);
 
-  wrapper.addEventListener('mouseenter', ()=> { hover = true; });
-  wrapper.addEventListener('mouseleave', ()=> { hover = false; });
-
-  // Keyboard
+  // Keyboard + swipe
   wrapper.setAttribute('tabindex','0');
-  wrapper.addEventListener('keydown', (e)=>{
-    if(e.key === 'ArrowRight') next();
-    if(e.key === 'ArrowLeft')  prev();
+  wrapper.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') next();
+    if (e.key === 'ArrowLeft')  prev();
   });
-
-  // Touch swipe
   let sx = 0, dx = 0;
   wrapper.addEventListener('touchstart', (e)=> { sx = e.touches[0].clientX; dx = 0; }, {passive:true});
-  wrapper.addEventListener('touchmove', (e)=> { dx = e.touches[0].clientX - sx; }, {passive:true});
-  wrapper.addEventListener('touchend', ()=> {
-    if (Math.abs(dx) > 40) (dx < 0 ? next() : prev());
-  });
+  wrapper.addEventListener('touchmove',  (e)=> { dx = e.touches[0].clientX - sx; }, {passive:true});
+  wrapper.addEventListener('touchend',   ()=> { if (Math.abs(dx) > 40) (dx < 0 ? next() : prev()); });
 
   // Init
   setActive(0);
@@ -206,6 +200,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 })();
 </script>
 <!-- =================== End Research Highlights Carousel =================== -->
+
 
 <!-- <div style="text-align: center;">
   <h2>News</h2>
