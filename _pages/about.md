@@ -155,7 +155,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
   background: #333; border-color: #333; opacity: 1;
 }
 
-@media (max-width: 560px) { .rc-caption { font-size: 12px; } }
+@media (max-width: 560px) { .rc-caption { font-size: 18px; } }
 </style>
 <!-- =================== End Research Highlights Carousel (CSS-only) =================== -->
 
