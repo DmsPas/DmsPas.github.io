@@ -31,7 +31,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <!-- ===================== Research Highlights Carousel (CSS-only) ===================== -->
 <div id="research-highlights" aria-label="Research highlights carousel" style="max-width:820px;margin:24px auto;">
-  <h3 style="text-align:center;margin:0 0 12px 0;">Research highlights</h3>
+  <h3 style="text-align:center;margin:0 0 12px 0;"></h3>
 
   <!-- Radios control which slide is shown -->
   <input class="rc-input" type="radio" name="rc" id="rc-s1" checked>
@@ -128,7 +128,9 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 /* Dots */
 .rc-dots {
-  position: absolute; bottom: 8px; left: 0; right: 0;
+  position: absolute;
+  bottom: -24px;   /* was 8px — pushes them below the rounded box */
+  left: 0; right: 0;
   display: flex; gap: 6px; justify-content: center; align-items: center;
   z-index: 2;
 }
