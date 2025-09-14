@@ -28,10 +28,9 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 </p>
 
 *** 
-
 <!-- ===================== Research Highlights Carousel ===================== -->
 <div id="research-highlights" aria-label="Research highlights carousel" style="max-width:820px;margin:24px auto;">
-  <h3 style="text-align:center;margin:0 0 12px 0;">Research highlights</h3>
+  <h3 style="text-align:center;margin:0 0 12px 0;"></h3>
 
   <div class="rc-wrapper" role="region">
     <!-- Slides -->
@@ -50,17 +49,17 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
     </div>
 
     <div class="rc-slide">
-      <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
-        <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
+      <a href="https://arxiv.org/abs/2508.16173" target="_blank" rel="noopener">
+        <img src="/images/Spectral_dir_topo.png" alt="Spectral_dir_topo" loading="lazy">
       </a>
-      <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+      <div class="rc-caption">Directed spectral methods for topological ordering</div>
     </div>
 
-    <!-- Prev / Next (inline onclick for reliability) -->
+    <!-- Prev / Next -->
     <button type="button" class="rc-nav rc-prev" aria-label="Previous slide" onclick="rcPrev('research-highlights')">&#10094;</button>
     <button type="button" class="rc-nav rc-next" aria-label="Next slide" onclick="rcNext('research-highlights')">&#10095;</button>
 
-    <!-- Dots get populated by the script -->
+    <!-- Dots -->
     <div class="rc-dots" role="tablist" aria-label="Slide selectors"></div>
   </div>
 </div>
@@ -110,7 +109,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.95);
   border: 1px solid #ddd;
   border-radius: 999px;
   width: 36px; height: 36px;
@@ -119,7 +118,8 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
   font-size: 20px;
   cursor: pointer;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-  z-index: 3; /* ensure buttons are clickable above image/caption */
+  z-index: 9999;              /* ensure always on top */
+  pointer-events: auto;       /* ensure clicks reach the buttons */
 }
 .rc-nav:hover { background: #fff; }
 .rc-prev { left: 10px; }
@@ -139,20 +139,24 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 </style>
 
 <script>
-/* Robust, global helpers so inline onclick works even if listeners fail */
+/* Works reliably on GitHub Pages + Jekyll */
 (function () {
   window.__rc = window.__rc || {};
+
   function init(id){
     const root = document.getElementById(id);
     if (!root) return;
     const wrapper = root.querySelector('.rc-wrapper');
     const slides  = Array.from(wrapper.querySelectorAll('.rc-slide'));
+    const prevBtn = wrapper.querySelector('.rc-prev');
+    const nextBtn = wrapper.querySelector('.rc-next');
     const dotsEl  = wrapper.querySelector('.rc-dots');
     if (!slides.length) return;
 
     let index = 0, timer = null, hover = false;
 
     // Build dots
+    dotsEl.innerHTML = '';
     slides.forEach((_, i) => {
       const b = document.createElement('button');
       b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
@@ -176,6 +180,10 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
     function stop(){ if (timer) clearInterval(timer); }
     function restart(){ start(); }
 
+    // Also wire the buttons here (in addition to inline onclick)
+    prevBtn && prevBtn.addEventListener('click', prev);
+    nextBtn && nextBtn.addEventListener('click', next);
+
     wrapper.addEventListener('mouseenter', () => hover = true);
     wrapper.addEventListener('mouseleave', () => hover = false);
 
@@ -188,19 +196,25 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
     setActive(0);
     start();
 
-    // expose controls
+    // expose controls globally for inline handlers
     window.__rc[id] = { next, prev, go };
   }
 
+  // public helpers for inline onclick
   window.rcNext = function(id){ const c = window.__rc[id]; if (c) c.next(); };
   window.rcPrev = function(id){ const c = window.__rc[id]; if (c) c.prev(); };
   window.rcGo   = function(id,i){ const c = window.__rc[id]; if (c) c.go(i,true); };
 
-  // Initialize immediately (works in Markdown/Jekyll)
-  init('research-highlights');
+  // Ensure DOM is ready before initializing
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => init('research-highlights'));
+  } else {
+    init('research-highlights');
+  }
 })();
 </script>
 <!-- =================== End Research Highlights Carousel =================== -->
+
 
 
 
