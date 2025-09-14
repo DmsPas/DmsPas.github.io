@@ -35,7 +35,6 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
   <div class="rc-wrapper" role="region">
     <!-- Slides -->
-    <!-- Replace img src and links with your figures & paper links. Keep the same structure. -->
     <div class="rc-slide active">
       <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
         <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
@@ -57,11 +56,11 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
       <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
     </div>
 
-    <!-- Prev / Next -->
-    <button class="rc-nav rc-prev" aria-label="Previous slide">&#10094;</button>
-    <button class="rc-nav rc-next" aria-label="Next slide">&#10095;</button>
+    <!-- Prev / Next (inline onclick for reliability) -->
+    <button type="button" class="rc-nav rc-prev" aria-label="Previous slide" onclick="rcPrev('research-highlights')">&#10094;</button>
+    <button type="button" class="rc-nav rc-next" aria-label="Next slide" onclick="rcNext('research-highlights')">&#10095;</button>
 
-    <!-- Dots -->
+    <!-- Dots get populated by the script -->
     <div class="rc-dots" role="tablist" aria-label="Slide selectors"></div>
   </div>
 </div>
@@ -140,66 +139,69 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 </style>
 
 <script>
+/* Robust, global helpers so inline onclick works even if listeners fail */
 (function () {
-  // Robust init: select the carousel by its ID (safer in Markdown/Jekyll)
-  const root = document.getElementById('research-highlights');
-  if (!root) return;
-  const wrapper = root.querySelector('.rc-wrapper');
-  const slides  = Array.from(wrapper.querySelectorAll('.rc-slide'));
-  const prevBtn = wrapper.querySelector('.rc-prev');
-  const nextBtn = wrapper.querySelector('.rc-next');
-  const dotsEl  = wrapper.querySelector('.rc-dots');
-  if (!slides.length) return;
+  window.__rc = window.__rc || {};
+  function init(id){
+    const root = document.getElementById(id);
+    if (!root) return;
+    const wrapper = root.querySelector('.rc-wrapper');
+    const slides  = Array.from(wrapper.querySelectorAll('.rc-slide'));
+    const dotsEl  = wrapper.querySelector('.rc-dots');
+    if (!slides.length) return;
 
-  let index = 0, timer = null, hover = false;
+    let index = 0, timer = null, hover = false;
 
-  // Build dots
-  slides.forEach((_, i) => {
-    const b = document.createElement('button');
-    b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
-    b.addEventListener('click', () => go(i, true));
-    dotsEl.appendChild(b);
-  });
+    // Build dots
+    slides.forEach((_, i) => {
+      const b = document.createElement('button');
+      b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+      b.addEventListener('click', () => go(i, true));
+      dotsEl.appendChild(b);
+    });
 
-  function setActive(i){
-    slides.forEach((s,k)=> s.classList.toggle('active', k===i));
-    dotsEl.querySelectorAll('button').forEach((d,k)=> d.classList.toggle('active', k===i));
+    function setActive(i){
+      slides.forEach((s,k)=> s.classList.toggle('active', k===i));
+      dotsEl.querySelectorAll('button').forEach((d,k)=> d.classList.toggle('active', k===i));
+    }
+    function go(i, user=false){
+      index = (i + slides.length) % slides.length;
+      setActive(index);
+      if (user) restart();
+    }
+    function next(){ go(index + 1); }
+    function prev(){ go(index - 1); }
+
+    function start(){ stop(); timer = setInterval(() => { if (!hover) next(); }, 5000); }
+    function stop(){ if (timer) clearInterval(timer); }
+    function restart(){ start(); }
+
+    wrapper.addEventListener('mouseenter', () => hover = true);
+    wrapper.addEventListener('mouseleave', () => hover = false);
+
+    // Touch swipe
+    let sx = 0, dx = 0;
+    wrapper.addEventListener('touchstart', (e)=> { sx = e.touches[0].clientX; dx = 0; }, {passive:true});
+    wrapper.addEventListener('touchmove',  (e)=> { dx = e.touches[0].clientX - sx; }, {passive:true});
+    wrapper.addEventListener('touchend',   ()=> { if (Math.abs(dx) > 40) (dx < 0 ? next() : prev()); });
+
+    setActive(0);
+    start();
+
+    // expose controls
+    window.__rc[id] = { next, prev, go };
   }
-  function go(i, user=false){
-    index = (i + slides.length) % slides.length;
-    setActive(index);
-    if (user) restart();
-  }
-  function next(){ go(index + 1); }
-  function prev(){ go(index - 1); }
 
-  function start(){ stop(); timer = setInterval(() => { if (!hover) next(); }, 5000); }
-  function stop(){ if (timer) clearInterval(timer); }
-  function restart(){ start(); }
+  window.rcNext = function(id){ const c = window.__rc[id]; if (c) c.next(); };
+  window.rcPrev = function(id){ const c = window.__rc[id]; if (c) c.prev(); };
+  window.rcGo   = function(id,i){ const c = window.__rc[id]; if (c) c.go(i,true); };
 
-  // Events
-  nextBtn.addEventListener('click', next);
-  prevBtn.addEventListener('click', prev);
-  wrapper.addEventListener('mouseenter', () => hover = true);
-  wrapper.addEventListener('mouseleave', () => hover = false);
-
-  // Keyboard + swipe
-  wrapper.setAttribute('tabindex','0');
-  wrapper.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') next();
-    if (e.key === 'ArrowLeft')  prev();
-  });
-  let sx = 0, dx = 0;
-  wrapper.addEventListener('touchstart', (e)=> { sx = e.touches[0].clientX; dx = 0; }, {passive:true});
-  wrapper.addEventListener('touchmove',  (e)=> { dx = e.touches[0].clientX - sx; }, {passive:true});
-  wrapper.addEventListener('touchend',   ()=> { if (Math.abs(dx) > 40) (dx < 0 ? next() : prev()); });
-
-  // Init
-  setActive(0);
-  start();
+  // Initialize immediately (works in Markdown/Jekyll)
+  init('research-highlights');
 })();
 </script>
 <!-- =================== End Research Highlights Carousel =================== -->
+
 
 
 <!-- <div style="text-align: center;">
