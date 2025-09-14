@@ -126,17 +126,21 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 .rc-prev { left: 10px; }
 .rc-next { right: 10px; }
 
-/* Dots */
+/* Dots (above the caption area) */
 .rc-dots {
   position: absolute;
-  bottom: -24px;   /* was 8px — pushes them below the rounded box */
+  bottom: 48px;        /* move above the caption */
   left: 0; right: 0;
-  display: flex; gap: 6px; justify-content: center; align-items: center;
-  z-index: 2;
+  display: flex; gap: 6px;
+  justify-content: center; align-items: center;
+  z-index: 3;
 }
 .rc-dots label {
   width: 8px; height: 8px; border-radius: 50%;
-  border: 1px solid #bbb; background: #fff; opacity: .7; cursor: pointer;
+  border: 1px solid #bbb;
+  background: #fff;
+  opacity: .7;
+  cursor: pointer;
 }
 
 /* Show the right slide based on which radio is checked */
