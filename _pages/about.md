@@ -31,7 +31,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <!-- ===================== Research Highlights Carousel ===================== -->
 <div id="research-highlights" aria-label="Research highlights carousel" style="max-width:820px;margin:24px auto;">
-  <h3 style="text-align:center;margin:0 0 12px 0;">Research highlights</h3>
+  <h3 style="text-align:center;margin:0 0 12px 0;"></h3>
 
   <div class="rc-wrapper" role="region">
     <!-- Slides -->§
@@ -44,10 +44,10 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
     </div>
 
     <div class="rc-slide">
-      <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
-        <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
+      <a href="https://arxiv.org/abs/2409.01834" target="_blank" rel="noopener">
+        <img src="/images/NPR_graph_clust.png" alt="NPR_graph_clust" loading="lazy">
       </a>
-      <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+      <div class="rc-caption">Nonlinear PageRank for local graph clusters</div>
     </div>
 
     <div class="rc-slide">
