@@ -28,44 +28,64 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 </p>
 
 *** 
-<!-- ===================== Research Highlights Carousel ===================== -->
+
+<!-- ===================== Research Highlights Carousel (CSS-only) ===================== -->
 <div id="research-highlights" aria-label="Research highlights carousel" style="max-width:820px;margin:24px auto;">
-  <h3 style="text-align:center;margin:0 0 12px 0;"></h3>
+  <h3 style="text-align:center;margin:0 0 12px 0;">Research highlights</h3>
 
-  <div class="rc-wrapper" role="region">
-    <!-- Slides -->
-    <div class="rc-slide active">
-      <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
-        <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
-      </a>
-      <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+  <!-- Radios control which slide is shown -->
+  <input class="rc-input" type="radio" name="rc" id="rc-s1" checked>
+  <input class="rc-input" type="radio" name="rc" id="rc-s2">
+  <input class="rc-input" type="radio" name="rc" id="rc-s3">
+
+  <div class="rc-wrapper" role="region" aria-live="polite">
+    <div class="rc-slides">
+      <!-- Slide 1 -->
+      <div class="rc-slide">
+        <a href="https://ieeexplore.ieee.org/document/10091452" target="_blank" rel="noopener">
+          <img src="/images/SQUIC_fit_adj.png" alt="SQUIC_fit_adj" loading="lazy">
+        </a>
+        <div class="rc-caption">Adjacency matrix estimation via maximum likelihood</div>
+        <!-- Prev/Next for slide 1 -->
+        <label class="rc-nav rc-prev" for="rc-s3" aria-label="Previous slide">&#10094;</label>
+        <label class="rc-nav rc-next" for="rc-s2" aria-label="Next slide">&#10095;</label>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="rc-slide">
+        <a href="https://arxiv.org/abs/2409.01834" target="_blank" rel="noopener">
+          <img src="/images/NPR_graph_clust.png" alt="NPR_graph_clust" loading="lazy">
+        </a>
+        <div class="rc-caption">Nonlinear PageRank for local graph clusters</div>
+        <label class="rc-nav rc-prev" for="rc-s1" aria-label="Previous slide">&#10094;</label>
+        <label class="rc-nav rc-next" for="rc-s3" aria-label="Next slide">&#10095;</label>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="rc-slide">
+        <a href="https://arxiv.org/abs/2508.16173" target="_blank" rel="noopener">
+          <img src="/images/Spectral_dir_topo.png" alt="Spectral_dir_topo" loading="lazy">
+        </a>
+        <div class="rc-caption">Directed spectral methods for topological ordering</div>
+        <label class="rc-nav rc-prev" for="rc-s2" aria-label="Previous slide">&#10094;</label>
+        <label class="rc-nav rc-next" for="rc-s1" aria-label="Next slide">&#10095;</label>
+      </div>
     </div>
-
-    <div class="rc-slide">
-      <a href="https://arxiv.org/abs/2409.01834" target="_blank" rel="noopener">
-        <img src="/images/NPR_graph_clust.png" alt="NPR_graph_clust" loading="lazy">
-      </a>
-      <div class="rc-caption">Nonlinear PageRank for local graph clusters</div>
-    </div>
-
-    <div class="rc-slide">
-      <a href="https://arxiv.org/abs/2508.16173" target="_blank" rel="noopener">
-        <img src="/images/Spectral_dir_topo.png" alt="Spectral_dir_topo" loading="lazy">
-      </a>
-      <div class="rc-caption">Directed spectral methods for topological ordering</div>
-    </div>
-
-    <!-- Prev / Next -->
-    <button type="button" class="rc-nav rc-prev" aria-label="Previous slide" onclick="rcPrev('research-highlights')">&#10094;</button>
-    <button type="button" class="rc-nav rc-next" aria-label="Next slide" onclick="rcNext('research-highlights')">&#10095;</button>
 
     <!-- Dots -->
-    <div class="rc-dots" role="tablist" aria-label="Slide selectors"></div>
+    <div class="rc-dots" role="tablist" aria-label="Slide selectors">
+      <label for="rc-s1" aria-label="Go to slide 1"></label>
+      <label for="rc-s2" aria-label="Go to slide 2"></label>
+      <label for="rc-s3" aria-label="Go to slide 3"></label>
+    </div>
   </div>
 </div>
 
 <style>
-/* ---- Carousel styles (scoped by .rc-*) ---- */
+/* Hide radio inputs */
+.rc-input { position:absolute; left:-9999px; }
+
+/* Base wrapper and slide look */
 .rc-wrapper {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -75,145 +95,64 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0,0,0,0.06);
 }
+.rc-slides { position: relative; height: 100%; }
 .rc-slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity .6s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute; inset: 0;
+  opacity: 0; transition: opacity .6s ease;
+  display: flex; align-items: center; justify-content: center;
   background: #fff;
 }
-.rc-slide.active { opacity: 1; }
 .rc-slide img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  display: block;
-  user-select: none;
-  -webkit-user-drag: none;
+  max-width: 100%; max-height: 100%;
+  object-fit: contain; display: block;
+  user-select: none; -webkit-user-drag: none;
 }
 .rc-caption {
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  padding: 8px 12px;
-  font-size: 13px;
-  color: #333;
-  background: rgba(255,255,255,0.88);
-  border-top: 1px solid #eee;
-  text-align: center;
-  z-index: 1;
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 8px 12px; font-size: 13px; color: #333;
+  background: rgba(255,255,255,0.88); border-top: 1px solid #eee;
+  text-align: center; z-index: 1;
 }
+
+/* Nav buttons are labels (so no JS needed) */
 .rc-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  position: absolute; top: 50%; transform: translateY(-50%);
   background: rgba(255,255,255,0.95);
-  border: 1px solid #ddd;
-  border-radius: 999px;
-  width: 36px; height: 36px;
-  line-height: 36px;
-  text-align: center;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-  z-index: 9999;              /* ensure always on top */
-  pointer-events: auto;       /* ensure clicks reach the buttons */
+  border: 1px solid #ddd; border-radius: 999px;
+  width: 36px; height: 36px; line-height: 36px; text-align: center;
+  font-size: 20px; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  z-index: 3;
 }
-.rc-nav:hover { background: #fff; }
 .rc-prev { left: 10px; }
 .rc-next { right: 10px; }
+
+/* Dots */
 .rc-dots {
-  position: absolute;
-  bottom: 8px; left: 0; right: 0;
+  position: absolute; bottom: 8px; left: 0; right: 0;
   display: flex; gap: 6px; justify-content: center; align-items: center;
+  z-index: 2;
 }
-.rc-dots button {
+.rc-dots label {
   width: 8px; height: 8px; border-radius: 50%;
-  border: 1px solid #bbb; background: #fff; opacity: .7;
-  cursor: pointer;
+  border: 1px solid #bbb; background: #fff; opacity: .7; cursor: pointer;
 }
-.rc-dots button.active { background: #333; border-color: #333; opacity: 1; }
+
+/* Show the right slide based on which radio is checked */
+#research-highlights #rc-s1:checked ~ .rc-wrapper .rc-slides .rc-slide:nth-child(1),
+#research-highlights #rc-s2:checked ~ .rc-wrapper .rc-slides .rc-slide:nth-child(2),
+#research-highlights #rc-s3:checked ~ .rc-wrapper .rc-slides .rc-slide:nth-child(3) { opacity: 1; }
+
+/* Highlight the active dot */
+#research-highlights #rc-s1:checked ~ .rc-wrapper .rc-dots label:nth-child(1),
+#research-highlights #rc-s2:checked ~ .rc-wrapper .rc-dots label:nth-child(2),
+#research-highlights #rc-s3:checked ~ .rc-wrapper .rc-dots label:nth-child(3) {
+  background: #333; border-color: #333; opacity: 1;
+}
+
 @media (max-width: 560px) { .rc-caption { font-size: 12px; } }
 </style>
+<!-- =================== End Research Highlights Carousel (CSS-only) =================== -->
 
-<script>
-/* Works reliably on GitHub Pages + Jekyll */
-(function () {
-  window.__rc = window.__rc || {};
-
-  function init(id){
-    const root = document.getElementById(id);
-    if (!root) return;
-    const wrapper = root.querySelector('.rc-wrapper');
-    const slides  = Array.from(wrapper.querySelectorAll('.rc-slide'));
-    const prevBtn = wrapper.querySelector('.rc-prev');
-    const nextBtn = wrapper.querySelector('.rc-next');
-    const dotsEl  = wrapper.querySelector('.rc-dots');
-    if (!slides.length) return;
-
-    let index = 0, timer = null, hover = false;
-
-    // Build dots
-    dotsEl.innerHTML = '';
-    slides.forEach((_, i) => {
-      const b = document.createElement('button');
-      b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
-      b.addEventListener('click', () => go(i, true));
-      dotsEl.appendChild(b);
-    });
-
-    function setActive(i){
-      slides.forEach((s,k)=> s.classList.toggle('active', k===i));
-      dotsEl.querySelectorAll('button').forEach((d,k)=> d.classList.toggle('active', k===i));
-    }
-    function go(i, user=false){
-      index = (i + slides.length) % slides.length;
-      setActive(index);
-      if (user) restart();
-    }
-    function next(){ go(index + 1); }
-    function prev(){ go(index - 1); }
-
-    function start(){ stop(); timer = setInterval(() => { if (!hover) next(); }, 5000); }
-    function stop(){ if (timer) clearInterval(timer); }
-    function restart(){ start(); }
-
-    // Also wire the buttons here (in addition to inline onclick)
-    prevBtn && prevBtn.addEventListener('click', prev);
-    nextBtn && nextBtn.addEventListener('click', next);
-
-    wrapper.addEventListener('mouseenter', () => hover = true);
-    wrapper.addEventListener('mouseleave', () => hover = false);
-
-    // Touch swipe
-    let sx = 0, dx = 0;
-    wrapper.addEventListener('touchstart', (e)=> { sx = e.touches[0].clientX; dx = 0; }, {passive:true});
-    wrapper.addEventListener('touchmove',  (e)=> { dx = e.touches[0].clientX - sx; }, {passive:true});
-    wrapper.addEventListener('touchend',   ()=> { if (Math.abs(dx) > 40) (dx < 0 ? next() : prev()); });
-
-    setActive(0);
-    start();
-
-    // expose controls globally for inline handlers
-    window.__rc[id] = { next, prev, go };
-  }
-
-  // public helpers for inline onclick
-  window.rcNext = function(id){ const c = window.__rc[id]; if (c) c.next(); };
-  window.rcPrev = function(id){ const c = window.__rc[id]; if (c) c.prev(); };
-  window.rcGo   = function(id,i){ const c = window.__rc[id]; if (c) c.go(i,true); };
-
-  // Ensure DOM is ready before initializing
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => init('research-highlights'));
-  } else {
-    init('research-highlights');
-  }
-})();
-</script>
-<!-- =================== End Research Highlights Carousel =================== -->
 
 
 
