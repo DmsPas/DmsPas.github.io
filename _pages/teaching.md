@@ -27,7 +27,7 @@ permalink: /teaching/
 
 ## Semester projects
 
-* G. Meyer, New data formats for sparse tensor contractions, USI, 2025. [paper](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206), [Poster](bitif_poster.pdf), [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
+* G. Meyer, New data formats for sparse tensor contractions, USI, 2025. [paper](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206), [Poster](http://DmsPas.github.io/files/bitif_poster.pdf), [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
 
 * E. Steinmacher, Genuine atomic multicast on Apache Kafka, USI, Poster at [PASC’24](https://pasc24.pasc-conference.org/) conference, Zürich, Switzerland. [Poster](http://DmsPas.github.io/files/Poster_HiWi_kafka.pdf)
 

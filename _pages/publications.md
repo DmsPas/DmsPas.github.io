@@ -23,13 +23,13 @@ permalink: /publications/
 
 ## Conference papers
 
-* X. Niu, G. Meyer, D. Pasadakis, A. -J. Yzelman and O. Schenk, "Incremental Sparse Tensor Format for Maximizing Efficiency in Tensor-Vector Multiplications," 2025 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Edinburgh, United Kingdom, 2025, [doi: 10.1109/CLUSTERWorkshops65972.2025.11164206](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206).
+* X. Niu, G. Meyer, D. Pasadakis, A. -J. Yzelman and O. Schenk, "Incremental Sparse Tensor Format for Maximizing Efficiency in Tensor-Vector Multiplications," 2025 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Edinburgh, United Kingdom, 2025, [doi: 10.1109/CLUSTERWorkshops65972.2025.11164206](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206). [Poster](http://DmsPas.github.io/files/bitif_poster.pdf) [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
 
 * M. Lechekhab, D. Pasadakis, and O. Schenk, "Multilevel diffusion based spectral graph clustering," in IEEE High Performance Extreme Computing Conference, 23 - 27 September 2024. *Outstanding paper award*. [doi: 10.1109/HPEC62836.2024.10938528](https://doi.org/10.1109/HPEC62836.2024.10938528)
 
-* J. Schmidt, D. Pasadakis, M. Sathe, and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, pp. 241-245. *Best poster award*. [poster](http://DmsPas.github.io/files/SDS24_GAMLNet_Poster.pdf) [doi: 10.1109/SDS60720.2024.00043](https://doi.org/10.1109/SDS60720.2024.00043)
+* J. Schmidt, D. Pasadakis, M. Sathe, and O. Schenk, "GAMLNet: a graph based framework for the detection of money laundering," 2024 11th IEEE Swiss Conference on Data Science (SDS), Zurich, Switzerland, 2024, pp. 241-245, [doi: 10.1109/SDS60720.2024.00043](https://doi.org/10.1109/SDS60720.2024.00043). [poster](http://DmsPas.github.io/files/SDS24_GAMLNet_Poster.pdf), [Best poster award](http://DmsPas.github.io/files/SDS24_GAMLNet_Award.pdf). 
 
-* V.I. Makri and D. Pasadakis, "The clustering of source rocks: A spectral approach". in Mediterranean Geosciences Union, MedGU, 20 March 2024. [doi: 10.1007/978-3-031-48758-3_72](https://doi.org/10.1007/978-3-031-48758-3_72)
+* V.I. Makri and D. Pasadakis, "The clustering of source rocks: A spectral approach". in Mediterranean Geosciences Union, MedGU, 20 March 2024. [doi: 10.1007/978-3-031-48758-3_72](https://doi.org/10.1007/978-3-031-48758-3_72). [Best paper award](http://DmsPas.github.io/files/BEST_PAPERS_MEDGU_22.pdf)
 
 * D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS," in IEEE High Performance Extreme Computing Conference, 25 - 29 September 2023. *Outstanding short paper award*. [paper](http://albert-jan.yzelman.net/PDFs/pasadakis23a-pp.pdf) [poster](http://DmsPas.github.io/files/Poster_IEEE_HPEC_23.pdf)
 
