@@ -23,7 +23,7 @@ permalink: /publications/
 
 ## Conference papers
 
-* X. Niu, G. Meyer, D. Pasadakis, A. -J. Yzelman and O. Schenk, "Incremental Sparse Tensor Format for Maximizing Efficiency in Tensor-Vector Multiplications," 2025 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Edinburgh, United Kingdom, 2025, [doi: 10.1109/CLUSTERWorkshops65972.2025.11164206](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206). [Poster](http://DmsPas.github.io/files/bitif_poster.pdf) [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
+* X. Niu, G. Meyer, D. Pasadakis, A. -J. Yzelman and O. Schenk, "Incremental Sparse Tensor Format for Maximizing Efficiency in Tensor-Vector Multiplications," 2025 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Edinburgh, United Kingdom, 2025, [doi: 10.1109/CLUSTERWorkshops65972.2025.11164206](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206). [Poster](http://DmsPas.github.io/files/bitif_poster.pdf), [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
 
 * M. Lechekhab, D. Pasadakis, and O. Schenk, "Multilevel diffusion based spectral graph clustering," in IEEE High Performance Extreme Computing Conference, 23 - 27 September 2024. *Outstanding paper award*. [doi: 10.1109/HPEC62836.2024.10938528](https://doi.org/10.1109/HPEC62836.2024.10938528)
 
