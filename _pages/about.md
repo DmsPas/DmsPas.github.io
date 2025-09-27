@@ -162,7 +162,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
-    <li>09/25: Congratulations to Xiahe and Georg for bringing home the <a href="http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf" target="_blank">Best poster award</a>, associated with the IEEE Cluster 2025 <a href="https://ieeexplore.ieee.org/document/11164206" target="_blank">paper</a>.</li>
+    <li>09/25: Congratulations to Xiaohe and Georg for bringing home the <a href="http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf" target="_blank">Best poster award</a>, associated with the IEEE Cluster 2025 <a href="https://ieeexplore.ieee.org/document/11164206" target="_blank">paper</a>.</li>
     <li>06/25: I will be presenting our work this summer at <a href="https://fam.tuwien.ac.at/events/vcmf2025/index.php" target="_blank">VCMF 25</a> (Vienna), <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85240" target="_blank">SIAM FM 25</a> (Miami), and at the 
     <a href="https://cs.duke.edu/events/graph-learning-and-spectral-clustering-high-dimensional-data" target="_blank">Duke</a> Computer Science Colloquium (Durham).</li>
     <li>03/25: I will be visiting the Huawei Research Center Zürich in March.</li>
