@@ -15,9 +15,9 @@ permalink: /teaching/
 
 ## MSc co-supervision
 
-* **(ongoing)** J. Palumbo, Spectral embeddings for directed graph clustering, USI and Politecnico di Milano (Polimi).
+* J. Palumbo, Spectral embeddings for directed graph clustering, USI and Politecnico di Milano (Polimi), 2025.
 
-* **(ongoing)** C. Ricci, Using time-series clustering for a better financial crime segmentation model, USI and Università degli Studi di Milano-Bicocca (UniMiB).
+* C. Ricci, Using time-series clustering for a better financial crime segmentation model, USI and Università degli Studi di Milano-Bicocca (UniMiB), 2025.
 
 * Julien Schmidt, Detecting financial fraud using graph neural networks, Poster at [PASC’23, Davos, Switzerland](https://pasc23.pasc-conference.org/), and MSc thesis, USI, 2023. [Poster](http://DmsPas.github.io/files/PASC2023_JulienSchmidt.pdf) [Thesis](https://thesis.bul.sbu.usi.ch/theses/2191-2223Schmidt/pdf?1697548012)
 
@@ -27,7 +27,7 @@ permalink: /teaching/
 
 ## Semester projects
 
-* **(ongoing)** G. Meyer, New data formats for sparse tensor contractions, USI.
+* G. Meyer, New data formats for sparse tensor contractions, USI, 2025. [paper](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206), [Poster](bitif_poster.pdf), [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
 
 * E. Steinmacher, Genuine atomic multicast on Apache Kafka, USI, Poster at [PASC’24](https://pasc24.pasc-conference.org/) conference, Zürich, Switzerland. [Poster](http://DmsPas.github.io/files/Poster_HiWi_kafka.pdf)
 
