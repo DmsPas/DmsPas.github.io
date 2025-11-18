@@ -5,6 +5,8 @@ permalink: /talks/
 
 ## Talks and presentations
 
+* Symmetry-breaking symmetry in directed spectral partitioning, Networks for Science, David Brower Center, Berkeley, CA, November 5-6, 2025. [Workshop](https://sites.google.com/lbl.gov/networks-for-science/agenda?authuser=0)
+
 * Graph learning and spectral clustering in high dimensional data, Duke Computer Science Colloquium, Durham, NC,  July 21, 2025. [Announcement](https://cs.duke.edu/events/graph-learning-and-spectral-clustering-high-dimensional-data)
 
 * Graph analytics and machine learning for anomaly detection in financial transactions, SIAM Conference on Financial Mathematics and Engineering (FM25), Hyatt Regency Miami, July 15–18, 2025. [Abstract](https://meetings.siam.org/sess/dsp_talk.cfm?p=148007)
