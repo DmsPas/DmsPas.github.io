@@ -15,11 +15,11 @@ permalink: /teaching/
 
 ## MSc co-supervision
 
-* J. Palumbo, Spectral embeddings for directed graph clustering, USI and Politecnico di Milano (Polimi), 2025.
+* J. Palumbo, Spectral embeddings for directed graph clustering, USI and Politecnico di Milano (Polimi), 2025. [Poster PASC'25](https://github.com/jacopopalumbo01/spectral-embeddings-for-directed-graph-clustering/blob/main/PASC25_poster.pdf), [Thesis](https://it.bul.sbu.usi.ch/search/theses?search%5Btitle%5D=Spectral+embeddings+for+directed+graph+clustering&search%5Bauthor%5D=&search%5Bsupervisor%5D=&search%5Bacademic_year%5D=&search%5Bfaculty%5D=&search%5Blearning_offer%5D=), [Code](https://github.com/jacopopalumbo01/spectral-embeddings-for-directed-graph-clustering)
 
 * C. Ricci, Using time-series clustering for a better financial crime segmentation model, USI and Università degli Studi di Milano-Bicocca (UniMiB), 2025.
 
-* Julien Schmidt, Detecting financial fraud using graph neural networks, Poster at [PASC’23, Davos, Switzerland](https://pasc23.pasc-conference.org/), and MSc thesis, USI, 2023. [Poster](http://DmsPas.github.io/files/PASC2023_JulienSchmidt.pdf) [Thesis](https://thesis.bul.sbu.usi.ch/theses/2191-2223Schmidt/pdf?1697548012)
+* Julien Schmidt, Detecting financial fraud using graph neural networks, Poster at [PASC’23, Davos, Switzerland](https://pasc23.pasc-conference.org/), and MSc thesis, USI, 2023. [Poster](http://DmsPas.github.io/files/PASC2023_JulienSchmidt.pdf), [Thesis](https://thesis.bul.sbu.usi.ch/theses/2191-2223Schmidt/pdf?1697548012)
 
 ## BSc co-supervision
 
