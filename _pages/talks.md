@@ -5,6 +5,9 @@ permalink: /talks/
 
 ## Talks and presentations
 
+* Governance and development of AI, principles in practice , Academy & Finance, Hôtel Président Wilson, Geneva, December 3, and Sheraton Hotel, Zurich, December 10, 2025.  [Seminar](https://www.academyfinance.ch/governance-and-development-of-ai-regulatory-requirements-and-good-practices/)
+
+
 * Symmetry-breaking symmetry in directed spectral partitioning, Networks for Science, David Brower Center, Berkeley, CA, November 5-6, 2025. [Workshop](https://sites.google.com/lbl.gov/networks-for-science/agenda?authuser=0)
 
 * Graph learning and spectral clustering in high dimensional data, Duke Computer Science Colloquium, Durham, NC,  July 21, 2025. [Announcement](https://cs.duke.edu/events/graph-learning-and-spectral-clustering-high-dimensional-data)

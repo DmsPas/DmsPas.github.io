@@ -162,6 +162,8 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
+    <li>12/25: Presenting topics associated to supervised and unsupervised learning connected with the Governance and development of AI, in the
+    <a href="https://www.academyfinance.ch/" target="_blank"> Academy & Finance</a>  workshop in Geneva and <a href="https://www.academyfinance.ch/governance-and-development-of-ai-regulatory-requirements-and-good-practices/" target="_blank"> Zurich</a>.</li>
     <li>11/25: Presenting our preprint on <a href="https://arxiv.org/abs/2508.16173" target="_blank">spectral topological orders</a>, in the workshop <a href="https://sites.google.com/lbl.gov/networks-for-science" target="_blank">Networks for Science</a> in Berkeley, California.</li>
     <li>09/25: Congratulations to Xiaohe and Georg for bringing home the <a href="http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf" target="_blank">Best poster award</a>, associated with the IEEE Cluster 2025 <a href="https://ieeexplore.ieee.org/document/11164206" target="_blank">paper</a>.</li>
     <li>06/25: I will be presenting our work this summer at <a href="https://fam.tuwien.ac.at/events/vcmf2025/index.php" target="_blank">VCMF 25</a> (Vienna), <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85240" target="_blank">SIAM FM 25</a> (Miami), and at the 

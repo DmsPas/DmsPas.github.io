@@ -35,9 +35,8 @@ permalink: /teaching/
 
 * Liudmila Karagyaur, Vanessa Braglia, and Lorenzo Ferri, A high performance video segmentation framework, Semester project, USI, 2019. [Report](http://DmsPas.github.io/files/A_High_Performance_Video_Segmentation_Framework.pdf)
 
-* Ezekiel Barnett, Sumeet Gyanchandani, and Sameer Rawat, High performance topology optimization , Semester project and poster submission, USI, 2019. 3rd place runner-up award for “Best poster” at [PASC’18, Basel, Switzerland](https://pasc18.pasc-conference.org/). [Poster](http://DmsPas.github.io/files/PASC18_Poster_Final.pdf)
-
-
+* Ezekiel Barnett, Sumeet Gyanchandani, and Sameer Rawat, High performance topology optimization , Semester project and poster submission, USI, 2019. 3rd place runner-up award for “Best poster” at [PASC’18](https://pasc18.pasc-conference.org/), Basel, Switzerland. [Poster](http://DmsPas.github.io/files/PASC18_Poster_Final.pdf), [Poster award](Best_Poster_3rd_Place.jpg).
+  
 ## Courses as assistant
 
 * High Performance Computing, USI. [Course link](https://search.usi.ch/en/courses/35263569/high-performance-computing)
