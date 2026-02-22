@@ -142,6 +142,10 @@
             }
         });
 
-        loop();
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loop);
+        } else {
+            loop();
+        }
     })();
 </script>
