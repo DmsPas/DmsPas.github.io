@@ -26,17 +26,15 @@
         var nodes = [];
         var inited = false;
 
-        // 8 clusters arranged in a circle (cx/cy are fractions of viewport W/H)
-        // Radius 0.38h x 0.32v so it looks circular on widescreen
         var clusterColors = [
-            '#e41a1c', // Red
-            '#ff7f00', // Orange
-            '#dbb000', // Yellow
-            '#4daf4a', // Green
-            '#00b4d8', // Cyan
-            '#377eb8', // Blue
-            '#984ea3', // Purple
-            '#28282B'  // Near-black
+            '#e41a1c',
+            '#ff7f00',
+            '#dbb000',
+            '#4daf4a',
+            '#00b4d8',
+            '#377eb8',
+            '#984ea3',
+            '#28282B'
         ];
         var NUM_CLUSTERS = 8;
         var clusterDefs = [];
@@ -49,11 +47,11 @@
             });
         }
 
-        var NUM_NODES = 400;   // Total number of nodes
-        var MAX_DIST = 360;   // Maximum distance between nodes to draw an edge
-        var CLUSTER_F = 0.001; // Strength of the force pulling nodes to their cluster centers
-        var NOISE = 0.18;  // Random noise added to the velocity of each node
-        var SPEED_CAP = 1.95;  // Maximum speed of any node
+        var NUM_NODES = 400;
+        var MAX_DIST = 360;
+        var CLUSTER_F = 0.001;
+        var NOISE = 0.18;
+        var SPEED_CAP = 1.95;
 
         function resize() {
             W = window.innerWidth || document.documentElement.clientWidth || 1200;
