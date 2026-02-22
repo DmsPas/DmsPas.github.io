@@ -162,6 +162,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
+    <li>02/26: Invited talk at the <a href="https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/" target="_blank">Aristotle University Research Dissemination Center</a>.</li>
     <li>12/25: Presenting topics associated to supervised and unsupervised learning connected with the Governance and development of AI, in the
     <a href="https://www.academyfinance.ch/" target="_blank"> Academy & Finance</a>  workshop in Geneva and <a href="https://www.academyfinance.ch/governance-and-development-of-ai-regulatory-requirements-and-good-practices/" target="_blank"> Zurich</a>.</li>
     <li>11/25: Presenting our preprint on <a href="https://arxiv.org/abs/2508.16173" target="_blank">spectral topological orders</a>, in the workshop <a href="https://sites.google.com/lbl.gov/networks-for-science" target="_blank">Networks for Science</a> in Berkeley, California.</li>

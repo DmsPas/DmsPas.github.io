@@ -5,8 +5,9 @@ permalink: /talks/
 
 ## Talks and presentations
 
-* Governance and development of AI, principles in practice , Academy & Finance, Hôtel Président Wilson, Geneva, December 3, and Sheraton Hotel, Zurich, December 10, 2025.  [Seminar](https://www.academyfinance.ch/governance-and-development-of-ai-regulatory-requirements-and-good-practices/)
+* Graph learning and community detection in large-scale data, Aristotle University Research Dissemination Center, Greece, February 18, 2025. [Seminar](https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/)
 
+* Governance and development of AI, principles in practice, Academy & Finance, Hôtel Président Wilson, Geneva, December 3, and Sheraton Hotel, Zurich, December 10, 2025.  [Seminar](https://www.academyfinance.ch/governance-and-development-of-ai-regulatory-requirements-and-good-practices/)
 
 * Symmetry-breaking symmetry in directed spectral partitioning, Networks for Science, David Brower Center, Berkeley, CA, November 5-6, 2025. [Workshop](https://sites.google.com/lbl.gov/networks-for-science/agenda?authuser=0)
 
