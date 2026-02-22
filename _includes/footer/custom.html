@@ -27,14 +27,14 @@
         var inited = false;
 
         var clusterColors = [
-            '#e41a1c',
-            '#ff7f00',
-            '#dbb000',
-            '#4daf4a',
-            '#00b4d8',
-            '#377eb8',
-            '#984ea3',
-            '#28282B'
+            '#e41a1c', /* red */
+            '#ff7f00', /* orange */
+            '#dbb000', /* yellow */
+            '#4daf4a', /* green */
+            '#00b4d8', /* cyan */
+            '#377eb8', /* blue */
+            '#984ea3', /* purple */
+            '#28282B'  /* black */
         ];
         var NUM_CLUSTERS = 8;
         var clusterDefs = [];
@@ -47,11 +47,11 @@
             });
         }
 
-        var NUM_NODES = 400;
-        var MAX_DIST = 360;
-        var CLUSTER_F = 0.001;
-        var NOISE = 0.18;
-        var SPEED_CAP = 1.95;
+        var NUM_NODES = 400; /* number of nodes */
+        var MAX_DIST = 360; /* maximum distance between nodes to draw an edge */
+        var CLUSTER_F = 0.001; /* strength of the force pulling nodes to their cluster centers */
+        var NOISE = 0.18; /* random noise added to the velocity of each node */
+        var SPEED_CAP = 1.95; /* maximum speed of any node */
 
         function resize() {
             W = window.innerWidth || document.documentElement.clientWidth || 1200;
