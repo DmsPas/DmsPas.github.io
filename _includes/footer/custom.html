@@ -26,19 +26,18 @@
         var nodes = [];
         var inited = false;
 
-        // --- Cluster definitions (positions as fractions of W/H) ---
         var clusterDefs = [
-            { cx: 0.20, cy: 0.25, color: '#2196a8' },  // teal
-            { cx: 0.75, cy: 0.20, color: '#6a5acd' },  // slate-purple
-            { cx: 0.55, cy: 0.72, color: '#2a9d6e' },  // green
-            { cx: 0.18, cy: 0.75, color: '#c0762a' }   // amber
+            { cx: 0.20, cy: 0.25, color: '#2196a8' },
+            { cx: 0.75, cy: 0.20, color: '#6a5acd' },
+            { cx: 0.55, cy: 0.72, color: '#2a9d6e' },
+            { cx: 0.18, cy: 0.75, color: '#c0762a' }
         ];
 
-        var NUM_NODES = 52;
-        var MAX_DIST = 160;
-        var CLUSTER_F = 0.012;
-        var NOISE = 0.35;
-        var SPEED_CAP = 1.4;
+        var NUM_NODES = 260;
+        var MAX_DIST = 760;
+        var CLUSTER_F = 0.001;
+        var NOISE = 0.08;
+        var SPEED_CAP = 0.15;
 
         function resize() {
             W = window.innerWidth || document.documentElement.clientWidth || 1200;
@@ -49,6 +48,7 @@
 
         function initNodes() {
             nodes = [];
+            var min_node_size = 10;
             for (var i = 0; i < NUM_NODES; i++) {
                 var cl = clusterDefs[i % clusterDefs.length];
                 nodes.push({
@@ -56,7 +56,7 @@
                     y: cl.cy * H + (Math.random() - 0.5) * 220,
                     vx: (Math.random() - 0.5) * 0.6,
                     vy: (Math.random() - 0.5) * 0.6,
-                    r: 2.5 + Math.random() * 2,
+                    r: min_node_size + Math.random() * 2,
                     cluster: i % clusterDefs.length
                 });
             }
@@ -68,16 +68,12 @@
             for (var i = 0; i < nodes.length; i++) {
                 var n = nodes[i];
                 var cl = clusterDefs[n.cluster];
-                var tx = cl.cx * W;
-                var ty = cl.cy * H;
-
-                n.vx += CLUSTER_F * (tx - n.x) + (Math.random() - 0.5) * NOISE;
-                n.vy += CLUSTER_F * (ty - n.y) + (Math.random() - 0.5) * NOISE;
+                n.vx += CLUSTER_F * (cl.cx * W - n.x) + (Math.random() - 0.5) * NOISE;
+                n.vy += CLUSTER_F * (cl.cy * H - n.y) + (Math.random() - 0.5) * NOISE;
                 n.vx = clamp(n.vx, -SPEED_CAP, SPEED_CAP);
                 n.vy = clamp(n.vy, -SPEED_CAP, SPEED_CAP);
                 n.x += n.vx;
                 n.y += n.vy;
-
                 if (n.x < 0) { n.x = 0; n.vx *= -0.5; }
                 if (n.x > W) { n.x = W; n.vx *= -0.5; }
                 if (n.y < 0) { n.y = 0; n.vy *= -0.5; }
@@ -87,18 +83,14 @@
 
         function draw() {
             ctx.clearRect(0, 0, W, H);
-
-            // Edges
             for (var i = 0; i < nodes.length; i++) {
                 for (var j = i + 1; j < nodes.length; j++) {
                     var a = nodes[i], b = nodes[j];
                     var dx = a.x - b.x, dy = a.y - b.y;
                     var d = Math.sqrt(dx * dx + dy * dy);
                     if (d < MAX_DIST) {
-                        var alpha = 1 - d / MAX_DIST;
-                        ctx.strokeStyle = (a.cluster === b.cluster)
-                            ? clusterDefs[a.cluster].color : '#888888';
-                        ctx.globalAlpha = alpha * 0.65;
+                        ctx.strokeStyle = (a.cluster === b.cluster) ? clusterDefs[a.cluster].color : '#888';
+                        ctx.globalAlpha = (1 - d / MAX_DIST) * 0.65;
                         ctx.lineWidth = 0.8;
                         ctx.beginPath();
                         ctx.moveTo(a.x, a.y);
@@ -107,8 +99,6 @@
                     }
                 }
             }
-
-            // Nodes
             ctx.globalAlpha = 1;
             for (var i = 0; i < nodes.length; i++) {
                 var n = nodes[i];
@@ -120,35 +110,22 @@
         }
 
         function loop() {
-            // Lazy init: wait until viewport is available
             if (!inited) {
                 resize();
-                if (W > 0 && H > 0) {
-                    initNodes();
-                    inited = true;
-                }
+                if (W > 0 && H > 0) { initNodes(); inited = true; }
             }
-            if (inited) {
-                step();
-                draw();
-            }
+            if (inited) { step(); draw(); }
             requestAnimationFrame(loop);
         }
 
         window.addEventListener('resize', function () {
             resize();
-            // Rescale node positions proportionally
             for (var i = 0; i < nodes.length; i++) {
                 nodes[i].x = clamp(nodes[i].x, 0, W);
                 nodes[i].y = clamp(nodes[i].y, 0, H);
             }
         });
 
-        // Start on DOMContentLoaded or immediately if already loaded
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', loop);
-        } else {
-            loop();
-        }
+        loop();
     })();
 </script>
