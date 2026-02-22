@@ -11,7 +11,7 @@ redirect_from:
 I am a lecturer and postdoctoral fellow at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
 The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph clustering and anomaly detection. 
 
-I am the principal investigator (PI) of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich for 2025. My work is 
+I am the principal investigator (PI) of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich. My work is 
 also supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
 

@@ -26,18 +26,34 @@
         var nodes = [];
         var inited = false;
 
-        var clusterDefs = [
-            { cx: 0.20, cy: 0.25, color: '#2196a8' },
-            { cx: 0.75, cy: 0.20, color: '#6a5acd' },
-            { cx: 0.55, cy: 0.72, color: '#2a9d6e' },
-            { cx: 0.18, cy: 0.75, color: '#c0762a' }
+        // 8 clusters arranged in a circle (cx/cy are fractions of viewport W/H)
+        // Radius 0.38h x 0.32v so it looks circular on widescreen
+        var clusterColors = [
+            '#e41a1c', // Red
+            '#ff7f00', // Orange
+            '#dbb000', // Yellow
+            '#4daf4a', // Green
+            '#00b4d8', // Cyan
+            '#377eb8', // Blue
+            '#984ea3', // Purple
+            '#28282B'  // Near-black
         ];
+        var NUM_CLUSTERS = 8;
+        var clusterDefs = [];
+        for (var k = 0; k < NUM_CLUSTERS; k++) {
+            var angle = (k / NUM_CLUSTERS) * 2 * Math.PI;
+            clusterDefs.push({
+                cx: 0.5 + 0.38 * Math.cos(angle),
+                cy: 0.5 + 0.32 * Math.sin(angle),
+                color: clusterColors[k]
+            });
+        }
 
-        var NUM_NODES = 260;
-        var MAX_DIST = 760;
-        var CLUSTER_F = 0.001;
-        var NOISE = 0.08;
-        var SPEED_CAP = 0.15;
+        var NUM_NODES = 400;   // Total number of nodes
+        var MAX_DIST = 360;   // Maximum distance between nodes to draw an edge
+        var CLUSTER_F = 0.001; // Strength of the force pulling nodes to their cluster centers
+        var NOISE = 0.18;  // Random noise added to the velocity of each node
+        var SPEED_CAP = 1.95;  // Maximum speed of any node
 
         function resize() {
             W = window.innerWidth || document.documentElement.clientWidth || 1200;
@@ -52,8 +68,8 @@
             for (var i = 0; i < NUM_NODES; i++) {
                 var cl = clusterDefs[i % clusterDefs.length];
                 nodes.push({
-                    x: cl.cx * W + (Math.random() - 0.5) * 320,
-                    y: cl.cy * H + (Math.random() - 0.5) * 220,
+                    x: Math.random() * W,
+                    y: Math.random() * H,
                     vx: (Math.random() - 0.5) * 0.6,
                     vy: (Math.random() - 0.5) * 0.6,
                     r: min_node_size + Math.random() * 2,
