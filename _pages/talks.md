@@ -5,7 +5,9 @@ permalink: /talks/
 
 ## Talks and presentations
 
-* Graph learning and community detection in large-scale data, Aristotle University Research Dissemination Center, Greece, February 18, 2025. [Seminar](https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/)
+* Multilevel Anomaly Detection in Large-Scale Directed Graphs, SIAM PP26, Berlin, Germany, March 3, 2026. [Minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85855)
+
+* Graph learning and community detection in large-scale data, Aristotle University Research Dissemination Center, Greece, February 18, 2026. [Seminar](https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/)
 
 * Governance and development of AI, principles in practice, Academy & Finance, Hôtel Président Wilson, Geneva, December 3, and Sheraton Hotel, Zurich, December 10, 2025.  [Seminar](https://www.academyfinance.ch/governance-and-development-of-ai-regulatory-requirements-and-good-practices/)
 
