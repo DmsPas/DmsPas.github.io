@@ -13,7 +13,9 @@ permalink: /publications/
 
 ## Journal articles
 
-* A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk. 2024. "Algorithm 1042: Sparse Precision Matrix Estimation With SQUIC," ACM Transactions of Mathematical Software, March 2024. [doi: 10.1145/3650108](https://doi.org/10.1145/3650108).
+* D. Vega Rodriguez, S. Omlin, D. Pasadakis, and O. Schenk, “Generating architecture-agnostic performance tests from functional unit tests,” ACM Trans. Model. Perform. Eval. Comput. Syst., Mar. 2026, Just Accepted. [doi: 10.1145/3801098](https://doi.org/10.1145/3801098).
+
+* A. Eftekhari, L. Gaedke-Merzhäuser, D. Pasadakis, M. Bollhöfer, S. Scheidegger, and O. Schenk, "Algorithm 1042: Sparse Precision Matrix Estimation With SQUIC," ACM Transactions of Mathematical Software, March 2024. [doi: 10.1145/3650108](https://doi.org/10.1145/3650108).
 
 * D. Pasadakis, M. Bollhöfer, and O. Schenk, "Sparse quadratic approximation for graph learning," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 9, pp. 11256-11269, 1 Sept. 2023, [doi: 10.1109/TPAMI.2023.3263969](https://doi.org/10.1109/TPAMI.2023.3263969) and [TechRxiv link](https://www.techrxiv.org/doi/full/10.36227/techrxiv.19635990.v1). 
 
