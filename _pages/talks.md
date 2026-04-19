@@ -5,6 +5,8 @@ permalink: /talks/
 
 ## Talks and presentations
 
+* An introduction to linear and non-linear spectral clustering, University of Illinois Urbana-Champaign, USA, April 7, 2026. [Slides](https://tandy.cs.illinois.edu/UIUC_DPasadakisPDF.pdf)
+
 * Multilevel Anomaly Detection in Large-Scale Directed Graphs, SIAM PP26, Berlin, Germany, March 3, 2026. [Minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85855)
 
 * Graph learning and community detection in large-scale data, Aristotle University Research Dissemination Center, Greece, February 18, 2026. [Seminar](https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/)
