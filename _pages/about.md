@@ -15,12 +15,12 @@ I am the principal investigator (PI) of the project **Directed acyclic graph par
 also supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
 
+This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026).
+
 **For students**
 - [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35275751/emerging-topics-in-advanced-computing), Phd course, USI.
 - [Data analytics for fraud detection](https://search.usi.ch/en/courses/35275991/data-analytics-for-fraud-detection), MSC, MFT, PhD course, USI.
 - For MSc and BSc thesis topics, please contact via e-mail.
-
-This is my [cv](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026).
 
 
 <p align="center">
