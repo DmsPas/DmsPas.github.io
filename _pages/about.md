@@ -20,8 +20,8 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 - [Data analytics for fraud detection](https://search.usi.ch/en/courses/35275991/data-analytics-for-fraud-detection), MSC, MFT, PhD course, USI.
 - For MSc and BSc thesis topics, please contact via e-mail.
 
-<!-- This is my [cv](http://DmsPas.github.io/files/CV_DPasadakis.pdf) (updated February 2024). -->
-<!-- I completed my Phd at USI in February 2023, under the supervision of [Olaf Schenk](https://search.usi.ch/en/people/9a52a2fdb8d3d26ec16fb1569b590909/schenk-olaf). Prior to that, I worked on fluid-structure interaction problems as part of my MSc thesis on [Computational Science](https://www.usi.ch/en/education/master/computational-science) at USI, and studied Physics at the [Aristotle University of Thessaloniki](https://www.physics.auth.gr/en/) and [TU Berlin](https://www.tu.berlin/en/naturwissenschaften).  -->
+This is my [cv](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026).
+
 
 <p align="center">
 <img src="/images/USI_Panua_Logo.png" width="420" alt="USI_logo_full"> 
@@ -161,7 +161,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
-    <li>04/26: I presented  <a href="https://tandy.cs.illinois.edu/UIUC_DPasadakisPDF.pdf" target="_blank">An introduction to linear and non-linear spectral clustering</a> at Tandy Warnow's class <a href="https://tandy.cs.illinois.edu/CS598-Warnow-Sp2026.html" target="_blank">Graph Algorithms for Community Structure Detection in Large Networks</a> at the University of Illinois Urbana-Champaign.</li>
+    <li>04/26: I presented  <a href="https://tandy.cs.illinois.edu/UIUC_DPasadakisPDF.pdf" target="_blank">An introduction to linear and non-linear spectral clustering</a> at Tandy Warnow's class <a href="https://tandy.cs.illinois.edu/CS598-Warnow-Sp2026.html" target="_blank">Graph Algorithms for Community Structure Detection in Large Networks</a> at the Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign.</li>
     <li>03/26: We organized the minisymposium <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85855" target="_blank">Scalable numerical algorithms and graph analytics for large-scale applications</a> at the <a href="https://www.siam.org/conferences-events/siam-conferences/pp26/" target="_blank">SIAM PP26</a> in Berlin.</li>  
     <li>02/26: Invited talk at the <a href="https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/" target="_blank">Aristotle University Research Dissemination Center</a>.</li>
     <li>12/25: Presenting topics associated to supervised and unsupervised learning connected with the Governance and development of AI, in the
