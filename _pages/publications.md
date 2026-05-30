@@ -37,7 +37,7 @@ High Performance Extreme Computing Conference (HPEC), Wakefield, MA, USA, pp. 1-
 
 * V.I. Makri and D. Pasadakis, "The clustering of source rocks: A spectral approach". in Mediterranean Geosciences Union, MedGU, 20 March 2024. [doi: 10.1007/978-3-031-48758-3_72](https://doi.org/10.1007/978-3-031-48758-3_72). [Best paper award](http://DmsPas.github.io/files/BEST_PAPERS_MEDGU_22.pdf), [code](https://github.com/DmsPas/Spectral-clustering-of-source-rocks)
 
-* D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS," in 2023 EEE High Performance Extreme Computing Conference (HPEC), Wakefield, MA, USA, 2023. *Outstanding short paper award*. [doi: 10.48550/arXiv.2605.26975](https://arxiv.org/abs/2605.26975) [poster](http://DmsPas.github.io/files/Poster_IEEE_HPEC_23.pdf) ()
+* D. Pasadakis, O. Schenk, V. Vlacic, and A.-J. Yzelman, "Nonlinear spectral clustering with C++ GraphBLAS," in 2023 EEE High Performance Extreme Computing Conference (HPEC), Wakefield, MA, USA, 2023. *Outstanding short paper award*. [doi: 10.48550/arXiv.2605.26975](https://arxiv.org/abs/2605.26975) [poster](http://DmsPas.github.io/files/Poster_IEEE_HPEC_23.pdf)
 
 * V.I. Makri, D. Pasadakis, and N. Pasadakis, "A novel chemometric approach for oil & source rock clustering," in European Association of Geoscientists & Engineers, pp. 1-2, 2023, [doi: 10.3997/2214-4609.202333183](https://doi.org/10.3997/2214-4609.202333183).
 
