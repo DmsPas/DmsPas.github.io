@@ -161,6 +161,8 @@ This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (upda
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
+    <li>0526: Congatulations to Claudio for winning the <a href="https://www.usi.ch/en/feeds/35035" target="_blank">Best Presentation Award</a>
+    at Premio Swissengineering Ticino 2026, for his MSc thesis <a href="http://DmsPas.github.io/files/Master_Thesis_Claudio_Ricci_25.pdf" target="_blank">Using time-series clustering for a better financial crime segmentation model</a>. <li>
     <li>04/26: I presented  <a href="https://tandy.cs.illinois.edu/UIUC_DPasadakisPDF.pdf" target="_blank">An introduction to linear and non-linear spectral clustering</a> at Tandy Warnow's class <a href="https://tandy.cs.illinois.edu/CS598-Warnow-Sp2026.html" target="_blank">Graph Algorithms for Community Structure Detection in Large Networks</a> at the Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign.</li>
     <li>03/26: We organized the minisymposium <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85855" target="_blank">Scalable numerical algorithms and graph analytics for large-scale applications</a> at the <a href="https://www.siam.org/conferences-events/siam-conferences/pp26/" target="_blank">SIAM PP26</a> in Berlin.</li>  
     <li>02/26: Invited talk at the <a href="https://ece.auth.gr/proskeklimeni-omilia-graph-learning-and-community-detection-in-large-scale-data-dimosthenis-pasadakis/" target="_blank">Aristotle University Research Dissemination Center</a>.</li>
