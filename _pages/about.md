@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a lecturer and postdoctoral fellow at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
-The focus of my research is centered around algorithms for graph learning and combinatorial optimization for graph clustering and anomaly detection. 
+I am a researcher and lecturer at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
+The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection. 
 
-I am the principal investigator (PI) of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich. My work is 
-also supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
+My work is supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
 
 This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026).
@@ -21,6 +20,11 @@ This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (upda
 - [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35275751/emerging-topics-in-advanced-computing), Phd course, USI.
 - [Data analytics for fraud detection](https://search.usi.ch/en/courses/35275991/data-analytics-for-fraud-detection), MSC, MFT, PhD course, USI.
 - For MSc and BSc thesis topics, please contact via e-mail.
+
+**Projects and grants**
+- 2026 | Program for the Promotion of Early-Career Researchers, Swissuniversities. Travel grant. [1,000 CHF]
+- 01.2025 - 01.2026 | Principal investigator of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich. [120,000 USD]
+- 2023 | Danish Data Science Academy (DDSA) Research visit grant number: 2023-1855. [15, 000 DKK]
 
 
 <p align="center">
