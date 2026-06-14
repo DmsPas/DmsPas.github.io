@@ -22,9 +22,9 @@ This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (upda
 - For MSc and BSc thesis topics, please contact via e-mail.
 
 **Projects and grants**
-- 2026 | Program for the Promotion of Early-Career Researchers, Swissuniversities. Travel grant. [1,000 CHF]
-- 01.2025 - 01.2026 | Principal investigator of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich. [120,000 USD]
-- 2023 | Danish Data Science Academy (DDSA) Research visit grant number: 2023-1855. [15, 000 DKK]
+- 2026: Program for the Promotion of Early-Career Researchers, Swissuniversities. Travel grant. [1,000 CHF]
+- 01.2025 - 01.2026: Principal investigator of the project **Directed acyclic graph partitioning for scheduling tasks**, financed by the Huawei Research Center Zürich. [120,000 USD]
+- 2023: Danish Data Science Academy (DDSA) Research visit grant number: 2023-1855. [15, 000 DKK]
 
 
 <p align="center">
