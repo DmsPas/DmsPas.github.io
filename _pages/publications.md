@@ -26,6 +26,8 @@ from Functional Unit Tests", ACM Transactions on Modeling and Performance Evalua
 
 ## Conference papers
 
+* M. Lechekhab, D. Pasadakis, Roger Käppeli, A. Eftekhari, and O. Schenk, ``GraphLab.jl: A Julia Framework for Graph Partitioning,'' The Proceedings of the JuliaCon Conferences, Accepted, in press, 2026.
+
 * L. Losavio, L. Persia, M. Sathe, and D. Pasadakis, “Fraud detection in cryptocurrency markets with spatio-temporal graph neural networks,” in 2026 IEEE Swiss Conference on Data Science and AI (SDS), Zurich, Switzerland, 2026, pp. 123-131, [doi: 10.1109/SDS70563.2026.00024](https://doi.org/10.1109/SDS70563.2026.00024), [code](https://github.com/lidialosavio-dotcom/crypto_fraud_stGNN)
 
 * X. Niu, G. Meyer, D. Pasadakis, A. -J. Yzelman and O. Schenk, "Incremental Sparse Tensor Format for Maximizing Efficiency in Tensor-Vector Multiplications," 2025 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Edinburgh, United Kingdom, 2025, [doi: 10.1109/CLUSTERWorkshops65972.2025.11164206](https://doi.org/10.1109/CLUSTERWorkshops65972.2025.11164206). [Poster](http://DmsPas.github.io/files/bitif_poster.pdf), [Best poster award](http://DmsPas.github.io/files/ieee-cluster-best-poster.pdf).
