@@ -190,6 +190,7 @@ This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (upda
   </ul>
 </div>
 
+<br>
 
 **Projects and grants**
 - 2026: Program for the Promotion of Early-Career Researchers, Swissuniversities. Travel grant. [1,000 CHF]
