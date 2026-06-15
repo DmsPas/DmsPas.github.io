@@ -21,11 +21,6 @@ This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (upda
 - [Data analytics for fraud detection](https://search.usi.ch/en/courses/35275991/data-analytics-for-fraud-detection), MSC, MFT, PhD course, USI.
 - For MSc and BSc thesis topics, please contact via e-mail.
 
-**Projects and grants**
-- 2026: Program for the Promotion of Early-Career Researchers, Swissuniversities. Travel grant. [1,000 CHF]
-- 01.2025 - 01.2026: Principal investigator, **Directed acyclic graph partitioning for scheduling tasks**, Huawei Research Center Zürich. [120,000 USD]
-- 2023: Danish Data Science Academy (DDSA) Research visit grant number: 2023-1855. [15,000 DKK]
-
 
 <p align="center">
 <img src="/images/USI_Panua_Logo.png" width="420" alt="USI_logo_full"> 
@@ -194,3 +189,9 @@ This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (upda
     <li>12/21: Our article <em>Multiway p-spectral graph cuts on Grassmann manifolds</em> was featured in the <a href="https://hpc.fau.de/files/2021/12/newsletter_nhr_december21.pdf" target="_blank">newsletter</a> of the National Centre for High Performance Computing of the University of Erlangen (NHR@FAU).</li>
   </ul>
 </div>
+
+
+**Projects and grants**
+- 2026: Program for the Promotion of Early-Career Researchers, Swissuniversities. Travel grant. [1,000 CHF]
+- 01.2025 - 01.2026: Principal investigator, **Directed acyclic graph partitioning for scheduling tasks**, Huawei Research Center Zürich. [120,000 USD]
+- 2023: Danish Data Science Academy (DDSA) Research visit grant number: 2023-1855. [15,000 DKK]
