@@ -5,6 +5,8 @@ permalink: /talks/
 
 ## Talks and presentations
 
+* Large-scale graph estimation and spectral anomaly detection, Complexity Science Hub, Vienna, Austria, June 3, 2026. [Announcement](https://csh.ac.at/events/large-scale-graph-estimation-and-spectral-anomaly-detection/)
+
 * An introduction to linear and non-linear spectral clustering, University of Illinois Urbana-Champaign, USA, April 7, 2026. [Slides](https://tandy.cs.illinois.edu/UIUC_DPasadakisPDF.pdf)
 
 * Multilevel Anomaly Detection in Large-Scale Directed Graphs, SIAM PP26, Berlin, Germany, March 3, 2026. [Minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85855)
