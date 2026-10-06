@@ -18,6 +18,9 @@ My lecturing, research, and industrial activities are based in Lugano, in the so
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817). -->
 
 <!-- This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026). -->
+<p align="center">
+<img src="/images/USI_SUPSI_PANUA.png" width="820" alt="logos_full"> 
+</p>
 
 **For students**
 - [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35275751/emerging-topics-in-advanced-computing), Phd course, USI.
@@ -26,11 +29,6 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 - [Calculus II](https://www.supsi.ch/en/w/calculus-2-m-b3201e-), BSc in Data Science and AI, SUPSI.
 - [Probability and statistics](https://www.supsi.ch/en/w/probability-and-statistics-m-b1207e-), BSc in Data Science and AI, SUPSI.
 - For MSc and BSc thesis topics in SUPSI and USI, please contact via e-mail.
-
-
-<p align="center">
-<img src="/images/USI_SUPSI_PANUA.png" width="820" alt="logos_full"> 
-</p>
 
 *** 
 
