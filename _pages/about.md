@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a faculty member (lecturer of mathematical engineering) at the [University of Applied Sciences and Arts of Southern Switzerland (SUPSI)](https://www.supsi.ch/en/dimosthenis-pasadakis) in the [Department of Innovative Technologies](https://www.supsi.ch/en/web/dti/home). I am also a researcher at [Università della Svizzera italiana (USI)](http://usi.to/vh8) in the [Institute of Computing](https://www.ci.inf.usi.ch/). The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection. In the private sector, I act as the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/). We develop customized high-end software solutions for large-scale prediction, simulation, optimization, and graph analytics. My lecturing, research, and industrial activities are based in Lugano, in the south of Switzerland.
+I am a faculty member (lecturer of mathematical engineering) at the [University of Applied Sciences and Arts of Southern Switzerland (SUPSI)](https://www.supsi.ch/en/dimosthenis-pasadakis) in the [Department of Innovative Technologies](https://www.supsi.ch/en/web/dti/home). I am also a researcher at [Università della Svizzera italiana (USI)](http://usi.to/vh8) in the [Institute of Computing](https://www.ci.inf.usi.ch/). The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection.
+
+In the private sector, I act as the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/). We develop customized high-end software solutions for large-scale prediction, simulation, optimization, and graph analytics.
+
+My lecturing, research, and industrial activities are based in Lugano, in the south of Switzerland.
 
 <!-- My work is supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817). -->
@@ -25,7 +29,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 
 <p align="center">
-<img src="/images/USI_SUPSI_PANUA.png" width="420" alt="logos_full"> 
+<img src="/images/USI_SUPSI_PANUA.png" width="820" alt="logos_full"> 
 </p>
 
 *** 
