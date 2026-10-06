@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a lecturer of mathematics at the [University of Applied Sciences and Arts of Southern Switzerland (SUPSI)](https://www.supsi.ch/en/dimosthenis-pasadakis) and a researcher at
-at [Università della Svizzera italiana (USI)](http://usi.to/vh8). The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection. In the private sector, I act as the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/). We  
-develop customized high-end software solutions for large-scale prediction, simulation, optimization, and graph analytics. My lecturing, research, and industrial activities are based in Lugano, in the south of Switzerland.
+I am a faculty member (lecturer of mathematical engineering) at the [University of Applied Sciences and Arts of Southern Switzerland (SUPSI)](https://www.supsi.ch/en/dimosthenis-pasadakis) in the [Department of Innovative Technologies](https://www.supsi.ch/en/web/dti/home). I am also a researcher at [Università della Svizzera italiana (USI)](http://usi.to/vh8) in the [Institute of Computing](https://www.ci.inf.usi.ch/). The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection. In the private sector, I act as the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/). We develop customized high-end software solutions for large-scale prediction, simulation, optimization, and graph analytics. My lecturing, research, and industrial activities are based in Lugano, in the south of Switzerland.
 
 <!-- My work is supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
 project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817). -->
@@ -164,6 +162,7 @@ project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme
 
 <div style="height: 200px; overflow-y: auto; background-color: #f9f9f9; padding: 6px; border: 3px solid #ddd; font-family: Arial, sans-serif; font-size: 14px;">
   <ul>
+    <li>09/26: I am joining <a href="https://www.supsi.ch/en" target="_blank">SUPSI</a> as a faculty member (lecturer of mathematical engineering).
     <li>06/26: I am visiting the Complexity Science Hub in Vienna, the first week of June for an <a href="https://csh.ac.at/dimosthenis-pasadakis/" target="_blank">invited talk</a>.</li>
     <li>05/26: Congatulations to Claudio for winning the <a href="https://www.usi.ch/en/feeds/35035" target="_blank">Best Presentation Award</a>
     at Premio Swissengineering Ticino 2026, for his MSc thesis <a href="http://DmsPas.github.io/files/Master_Thesis_Claudio_Ricci_25.pdf" target="_blank">Using time-series clustering for a better financial crime segmentation model</a>. </li>
