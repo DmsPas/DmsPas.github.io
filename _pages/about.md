@@ -8,22 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher and lecturer at [Università della Svizzera italiana (USI)](http://usi.to/vh8) and the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/), a spin off of the university.
-The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection. 
+I am a lecturer of mathematics at the [University of Applied Sciences and Arts of Southern Switzerland (SUPSI)](https://www.supsi.ch/en/dimosthenis-pasadakis) and a researcher at
+at [Università della Svizzera italiana (USI)](http://usi.to/vh8). The focus of my research is centered around HPC algorithms for graph learning and combinatorial and continuous optimization for graph clustering and anomaly detection. In the private sector, I act as the Chief Operating Officer (COO) of [Panua Technologies](https://panua.ch/). We  
+develop customized high-end software solutions for large-scale prediction, simulation, optimization, and graph analytics. My lecturing, research, and industrial activities are based in Lugano, in the south of Switzerland.
 
-My work is supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
-project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817).
+<!-- My work is supported by the joint German Research Foundation (DFG) and Swiss National Science Foundation (SNSF)
+project [Numerical Algorithms, Frameworks, and Scalable Technologies for Extreme-Scale Computing](https://data.snf.ch/grants/grant/204817). -->
 
-This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026).
+<!-- This is my [CV](http://DmsPas.github.io/files/CV_Pasadakis_long_06_26.pdf) (updated June 2026). -->
 
 **For students**
 - [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35275751/emerging-topics-in-advanced-computing), Phd course, USI.
 - [Data analytics for fraud detection](https://search.usi.ch/en/courses/35275991/data-analytics-for-fraud-detection), MSC, MFT, PhD course, USI.
-- For MSc and BSc thesis topics, please contact via e-mail.
+- [Numerical analysis](https://www.supsi.ch/en/w/numerical-analysis-m-b1206e-), BSc in Data Science and AI, SUPSI.
+- [Calculus II](https://www.supsi.ch/en/w/calculus-2-m-b3201e-), BSc in Data Science and AI, SUPSI.
+- [Probability and statistics](https://www.supsi.ch/en/w/probability-and-statistics-m-b1207e-), BSc in Data Science and AI, SUPSI.
+- For MSc and BSc thesis topics in SUPSI and USI, please contact via e-mail.
 
 
 <p align="center">
-<img src="/images/USI_Panua_Logo.png" width="420" alt="USI_logo_full"> 
+<img src="/images/USI_SUPSI_PANUA.png" width="420" alt="logos_full"> 
 </p>
 
 *** 

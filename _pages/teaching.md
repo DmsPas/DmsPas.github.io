@@ -7,6 +7,9 @@ permalink: /teaching/
 
 * **(ongoing)** [Emerging topics in advanced computing](https://search.usi.ch/en/courses/35275751/emerging-topics-in-advanced-computing), PhD course, Faculty of Informatics, USI.
 * **(ongoing)** [Data analytics for fraud detection](https://search.usi.ch/en/courses/35275991/data-analytics-for-fraud-detection), MSc of Computational Science, MSc Financial Technology and Computing, PhD, USI. Together with [Dr. Madan Sathe](https://www.deloitte.com/ch/en/about/people/profiles.madan-sathe+caa47b5a.html).
+* **(ongoing)** [Numerical analysis](https://www.supsi.ch/en/w/numerical-analysis-m-b1206e-), BSc in Data Science and AI, SUPSI.
+* **(ongoing)** [Calculus II](https://www.supsi.ch/en/w/calculus-2-m-b3201e-), BSc in Data Science and AI, SUPSI.
+* **(ongoing)** [Probability and statistics](https://www.supsi.ch/en/w/probability-and-statistics-m-b1207e-), BSc in Data Science and AI, SUPSI.
 * [Numerical computing](https://www.ci.inf.usi.ch/teaching/), BSc of Informatics, USI, 2023.
 
 ## PhD co-supervision

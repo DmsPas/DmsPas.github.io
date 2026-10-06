@@ -26,7 +26,10 @@ from Functional Unit Tests", ACM Transactions on Modeling and Performance Evalua
 
 ## Conference papers
 
-* M. Lechekhab, D. Pasadakis, Roger Käppeli, A. Eftekhari, and O. Schenk, ``GraphLab.jl: A Julia Framework for Graph Partitioning,'' The Proceedings of the JuliaCon Conferences, Accepted, in press, 2026.
+* D. Pasadakis, R. S. Steiner, P. A. Papp, T. Böhnlein, and A.-J. N. Yzelman, ``Brief Announcement: Direction-Incentivized Spectral Partitioning for Acyclic Graphs,'' in Proceedings of the 38th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2024, pp. 482-485, [doi: 10.1145/3816782.3819184](https://doi.org/10.1145/3816782.3819184).
+
+* M. Lechekhab, D. Pasadakis, R. Käppeli, A. Eftekhari, and O. Schenk, “GraphLab.jl: A Julia Framework for Graph Partitioning,” Proceedings of the JuliaCon Conferences, vol. 8, no. 85, 2024, p. 196,
+[doi: 10.21105/jcon.00196](https://doi.org/10.21105/jcon.00196), [code](https://github.com/lechekhabm/GraphLab.jl).
 
 * L. Losavio, L. Persia, M. Sathe, and D. Pasadakis, “Fraud detection in cryptocurrency markets with spatio-temporal graph neural networks,” in 2026 IEEE Swiss Conference on Data Science and AI (SDS), Zurich, Switzerland, 2026, pp. 123-131, [doi: 10.1109/SDS70563.2026.00024](https://doi.org/10.1109/SDS70563.2026.00024), [code](https://github.com/lidialosavio-dotcom/crypto_fraud_stGNN)
 
